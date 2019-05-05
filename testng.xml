@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="COM.EXPEDIA">
+	<listeners>
+		<listener class-name="com.expedia.utilities.Reporting"/>
+	</listeners>
+	<test name="FlightsTest">
+		<classes>
+			<class name="com.expedia.TestClasses.FlightsSearchTest"></class>
+		</classes>
+	</test>
+</suite>

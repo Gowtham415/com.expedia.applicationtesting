@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [com.expedia.TestClasses.FlightsSearchTest]">
+  <test thread-count="5" verbose="0" name="Command line test(failed)">
+    <classes>
+      <class name="com.expedia.TestClasses.FlightsSearchTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="Basic_Test_002" invocation-numbers="1"/>
+        </methods>
+      </class> <!-- com.expedia.TestClasses.FlightsSearchTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [com.expedia.TestClasses.FlightsSearchTest] -->

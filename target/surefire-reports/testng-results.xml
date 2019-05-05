@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="com.expedia.TestClasses.FlightsSearchTest" duration-ms="329737" started-at="2019-05-05T16:16:07Z" finished-at="2019-05-05T16:21:37Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="329737" started-at="2019-05-05T16:16:07Z" finished-at="2019-05-05T16:21:37Z">
+      <class name="com.expedia.TestClasses.FlightsSearchTest">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.expedia.TestClasses.FlightsSearchTest@43195e57]" name="beforeTest" is-config="true" duration-ms="226" started-at="2019-05-05T16:16:07Z" finished-at="2019-05-05T16:16:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.expedia.TestClasses.FlightsSearchTest@43195e57]" name="setUp" is-config="true" duration-ms="44684" started-at="2019-05-05T16:16:07Z" finished-at="2019-05-05T16:16:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="Basic_Test_001()[pri:0, instance:com.expedia.TestClasses.FlightsSearchTest@43195e57]" name="Basic_Test_001" duration-ms="16033" started-at="2019-05-05T16:16:52Z" finished-at="2019-05-05T16:17:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Basic_Test_001 -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.expedia.TestClasses.FlightsSearchTest@43195e57]" name="tearDown" is-config="true" duration-ms="3064" started-at="2019-05-05T16:17:08Z" finished-at="2019-05-05T16:17:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Basic_Test_001 status=SUCCESS method=FlightsSearchTest.Basic_Test_001()[pri:0, instance:com.expedia.TestClasses.FlightsSearchTest@43195e57] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.expedia.TestClasses.FlightsSearchTest@43195e57]" name="setUp" is-config="true" duration-ms="39523" started-at="2019-05-05T16:17:13Z" finished-at="2019-05-05T16:17:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="Basic_Test_002(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.expedia.TestClasses.FlightsSearchTest@43195e57]" name="Basic_Test_002" duration-ms="16119" started-at="2019-05-05T16:17:52Z" data-provider="Cities" finished-at="2019-05-05T16:18:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Bangalore]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chennai]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[15/05/2019]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[25/05/2019]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Basic_Test_002 -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.expedia.TestClasses.FlightsSearchTest@43195e57]" name="tearDown" is-config="true" duration-ms="815" started-at="2019-05-05T16:18:08Z" finished-at="2019-05-05T16:18:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Basic_Test_002 status=SUCCESS method=FlightsSearchTest.Basic_Test_002(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.expedia.TestClasses.FlightsSearchTest@43195e57] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.expedia.TestClasses.FlightsSearchTest@43195e57]" name="setUp" is-config="true" duration-ms="43452" started-at="2019-05-05T16:18:09Z" finished-at="2019-05-05T16:18:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="Basic_Test_002(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.expedia.TestClasses.FlightsSearchTest@43195e57]" name="Basic_Test_002" duration-ms="11833" started-at="2019-05-05T16:18:53Z" data-provider="Cities" finished-at="2019-05-05T16:19:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Hyderabad]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[New Delhi]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[25/05/2019]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[15/06/2019]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Basic_Test_002 -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.expedia.TestClasses.FlightsSearchTest@43195e57]" name="tearDown" is-config="true" duration-ms="929" started-at="2019-05-05T16:19:04Z" finished-at="2019-05-05T16:19:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Basic_Test_002 status=SUCCESS method=FlightsSearchTest.Basic_Test_002(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.expedia.TestClasses.FlightsSearchTest@43195e57] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.expedia.TestClasses.FlightsSearchTest@43195e57]" name="setUp" is-config="true" duration-ms="39462" started-at="2019-05-05T16:19:05Z" finished-at="2019-05-05T16:19:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="Basic_Test_002(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.expedia.TestClasses.FlightsSearchTest@43195e57]" name="Basic_Test_002" duration-ms="19868" started-at="2019-05-05T16:19:45Z" data-provider="Cities" finished-at="2019-05-05T16:20:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mumbai]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[kolkata]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[01/06/2019]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[11/06/2019]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Basic_Test_002 -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.expedia.TestClasses.FlightsSearchTest@43195e57]" name="tearDown" is-config="true" duration-ms="732" started-at="2019-05-05T16:20:05Z" finished-at="2019-05-05T16:20:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Basic_Test_002 status=SUCCESS method=FlightsSearchTest.Basic_Test_002(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.expedia.TestClasses.FlightsSearchTest@43195e57] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.expedia.TestClasses.FlightsSearchTest@43195e57]" name="setUp" is-config="true" duration-ms="43182" started-at="2019-05-05T16:20:05Z" finished-at="2019-05-05T16:20:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="Basic_Test_002(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.expedia.TestClasses.FlightsSearchTest@43195e57]" name="Basic_Test_002" duration-ms="47372" started-at="2019-05-05T16:20:49Z" data-provider="Cities" finished-at="2019-05-05T16:21:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mumbai]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[New York]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[15/06/2019]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[25/06/2019]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Basic_Test_002 -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.expedia.TestClasses.FlightsSearchTest@43195e57]" name="tearDown" is-config="true" duration-ms="844" started-at="2019-05-05T16:21:36Z" finished-at="2019-05-05T16:21:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Basic_Test_002 status=SUCCESS method=FlightsSearchTest.Basic_Test_002(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.expedia.TestClasses.FlightsSearchTest@43195e57] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.expedia.TestClasses.FlightsSearchTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- com.expedia.TestClasses.FlightsSearchTest -->
+</testng-results>
