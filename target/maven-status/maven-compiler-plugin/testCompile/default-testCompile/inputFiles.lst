@@ -1,6 +1,7 @@
 D:\Selenium\SeleniumWorkSpace\com.expedia\src\test\java\com\expedia\TestClasses\FlightsSearchTest.java
-D:\Selenium\SeleniumWorkSpace\com.expedia\src\test\java\com\expedia\utilities\Reporter.java
+D:\Selenium\SeleniumWorkSpace\com.expedia\src\test\java\com\expedia\utilities\RandomData.java
 D:\Selenium\SeleniumWorkSpace\com.expedia\src\test\java\com\expedia\pageObjects\FlightsSearchPagePOM.java
 D:\Selenium\SeleniumWorkSpace\com.expedia\src\test\java\com\expedia\utilities\ExplicitWaitsUtility.java
 D:\Selenium\SeleniumWorkSpace\com.expedia\src\test\java\com\expedia\utilities\ReadConfig.java
+D:\Selenium\SeleniumWorkSpace\com.expedia\src\test\java\com\expedia\utilities\XLUtility.java
 D:\Selenium\SeleniumWorkSpace\com.expedia\src\test\java\com\expedia\TestClasses\BaseClass.java

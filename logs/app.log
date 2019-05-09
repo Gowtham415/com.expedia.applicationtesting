@@ -1,315 +1,90 @@
-14:29:09.357 INFO  TestClasses.BaseClass -Getting the base URL from Config File
-14:29:22.884 INFO  TestClasses.BaseClass -Opening the base URL
-14:29:25.197 INFO  TestClasses.BaseClass -Clicked on the flights tab
-14:29:26.151 INFO  TestClasses.BaseClass -clicked Round trip radio button
-14:29:27.130 INFO  TestClasses.BaseClass -Entered Origin City
-14:29:27.998 INFO  TestClasses.BaseClass -Entered Destination City
-14:29:28.817 INFO  TestClasses.BaseClass -Entered Departure date
-14:29:29.720 INFO  TestClasses.BaseClass -Entered return Date
-14:29:40.872 INFO  TestClasses.BaseClass -Clicked on Search Flights button
-14:29:48.135 INFO  TestClasses.BaseClass -Getting the base URL from Config File
-14:30:01.147 INFO  TestClasses.BaseClass -Opening the base URL
-14:30:03.128 INFO  TestClasses.BaseClass -Clicked on the flights tab
-14:30:03.508 INFO  TestClasses.BaseClass -clicked Round trip radio button
-14:30:04.948 INFO  TestClasses.BaseClass -Entered Origin City
-14:30:05.725 INFO  TestClasses.BaseClass -Entered Destination City
-14:30:06.403 INFO  TestClasses.BaseClass -Entered Departure date
-14:30:07.068 INFO  TestClasses.BaseClass -Entered return Date
-14:30:34.365 INFO  TestClasses.BaseClass -Clicked on Search Flights button
-14:30:40.223 INFO  TestClasses.BaseClass -Getting the base URL from Config File
-14:32:06.532 INFO  TestClasses.BaseClass -Opening the base URL
-14:32:08.187 INFO  TestClasses.BaseClass -Clicked on the flights tab
-14:32:08.360 INFO  TestClasses.BaseClass -clicked Round trip radio button
-14:32:09.545 INFO  TestClasses.BaseClass -Entered Origin City
-14:32:10.140 INFO  TestClasses.BaseClass -Entered Destination City
-14:32:10.666 INFO  TestClasses.BaseClass -Entered Departure date
-14:32:11.244 INFO  TestClasses.BaseClass -Entered return Date
-14:32:34.198 INFO  TestClasses.BaseClass -Clicked on Search Flights button
-14:32:42.371 INFO  TestClasses.BaseClass -Getting the base URL from Config File
-14:33:11.987 INFO  TestClasses.BaseClass -Opening the base URL
-14:33:13.576 INFO  TestClasses.BaseClass -Clicked on the flights tab
-14:33:13.793 INFO  TestClasses.BaseClass -clicked Round trip radio button
-14:33:14.942 INFO  TestClasses.BaseClass -Entered Origin City
-14:33:15.460 INFO  TestClasses.BaseClass -Entered Destination City
-14:33:15.984 INFO  TestClasses.BaseClass -Entered Departure date
-14:33:16.589 INFO  TestClasses.BaseClass -Entered return Date
-14:33:24.926 INFO  TestClasses.BaseClass -Clicked on Search Flights button
-14:33:30.590 INFO  TestClasses.BaseClass -Getting the base URL from Config File
-14:33:43.834 INFO  TestClasses.BaseClass -Opening the base URL
-14:33:45.760 INFO  TestClasses.BaseClass -Clicked on the flights tab
-14:33:46.083 INFO  TestClasses.BaseClass -clicked Round trip radio button
-14:33:47.475 INFO  TestClasses.BaseClass -Entered Origin City
-14:33:48.557 INFO  TestClasses.BaseClass -Entered Destination City
-14:33:49.378 INFO  TestClasses.BaseClass -Entered Departure date
-14:33:50.212 INFO  TestClasses.BaseClass -Entered return Date
-14:33:59.125 INFO  TestClasses.BaseClass -Clicked on Search Flights button
-20:39:11.597 INFO  TestClasses.BaseClass -Getting the base URL from Config File
-20:40:04.728 INFO  TestClasses.BaseClass -Opening the base URL
-20:40:07.335 INFO  TestClasses.BaseClass -Clicked on the flights tab
-20:40:07.512 INFO  TestClasses.BaseClass -clicked Round trip radio button
-20:40:08.705 INFO  TestClasses.BaseClass -Entered Origin City
-20:40:09.390 INFO  TestClasses.BaseClass -Entered Destination City
-20:40:10.168 INFO  TestClasses.BaseClass -Entered Departure date
-20:40:10.959 INFO  TestClasses.BaseClass -Entered return Date
-20:40:40.294 INFO  TestClasses.BaseClass -Clicked on Search Flights button
-20:40:50.230 INFO  TestClasses.BaseClass -Getting the base URL from Config File
-20:41:31.856 INFO  TestClasses.BaseClass -Opening the base URL
-20:41:33.495 INFO  TestClasses.BaseClass -Clicked on the flights tab
-20:41:33.671 INFO  TestClasses.BaseClass -clicked Round trip radio button
-20:41:34.937 INFO  TestClasses.BaseClass -Entered Origin City
-20:41:35.701 INFO  TestClasses.BaseClass -Entered Destination City
-20:41:36.216 INFO  TestClasses.BaseClass -Entered Departure date
-20:41:36.881 INFO  TestClasses.BaseClass -Entered return Date
-20:41:42.176 INFO  TestClasses.BaseClass -Clicked on Search Flights button
-20:41:49.838 INFO  TestClasses.BaseClass -Getting the base URL from Config File
-20:42:30.358 INFO  TestClasses.BaseClass -Opening the base URL
-20:42:32.107 INFO  TestClasses.BaseClass -Clicked on the flights tab
-20:42:32.372 INFO  TestClasses.BaseClass -clicked Round trip radio button
-20:42:34.002 INFO  TestClasses.BaseClass -Entered Origin City
-20:42:34.900 INFO  TestClasses.BaseClass -Entered Destination City
-20:42:35.492 INFO  TestClasses.BaseClass -Entered Departure date
-20:42:36.130 INFO  TestClasses.BaseClass -Entered return Date
-20:42:45.230 INFO  TestClasses.BaseClass -Clicked on Search Flights button
-20:42:52.282 INFO  TestClasses.BaseClass -Getting the base URL from Config File
-20:43:31.592 INFO  TestClasses.BaseClass -Opening the base URL
-20:43:33.270 INFO  TestClasses.BaseClass -Clicked on the flights tab
-20:43:33.440 INFO  TestClasses.BaseClass -clicked Round trip radio button
-20:43:34.633 INFO  TestClasses.BaseClass -Entered Origin City
-20:43:35.692 INFO  TestClasses.BaseClass -Entered Destination City
-20:43:36.365 INFO  TestClasses.BaseClass -Entered Departure date
-20:43:37.003 INFO  TestClasses.BaseClass -Entered return Date
-20:44:03.009 INFO  TestClasses.BaseClass -Clicked on Search Flights button
-20:44:09.018 INFO  TestClasses.BaseClass -Getting the base URL from Config File
-20:44:52.330 INFO  TestClasses.BaseClass -Opening the base URL
-20:44:54.005 INFO  TestClasses.BaseClass -Clicked on the flights tab
-20:44:54.192 INFO  TestClasses.BaseClass -clicked Round trip radio button
-20:44:55.331 INFO  TestClasses.BaseClass -Entered Origin City
-20:44:56.128 INFO  TestClasses.BaseClass -Entered Destination City
-20:44:56.665 INFO  TestClasses.BaseClass -Entered Departure date
-20:44:57.304 INFO  TestClasses.BaseClass -Entered return Date
-20:45:01.674 INFO  TestClasses.BaseClass -Clicked on Search Flights button
-20:49:45.342 INFO  TestClasses.BaseClass -Getting the base URL from Config File
-20:50:26.258 INFO  TestClasses.BaseClass -Opening the base URL
-20:50:28.104 INFO  TestClasses.BaseClass -Clicked on the flights tab
-20:50:28.323 INFO  TestClasses.BaseClass -clicked Round trip radio button
-20:50:30.081 INFO  TestClasses.BaseClass -Entered Origin City
-20:50:30.806 INFO  TestClasses.BaseClass -Entered Destination City
-20:50:31.490 INFO  TestClasses.BaseClass -Entered Departure date
-20:50:32.207 INFO  TestClasses.BaseClass -Entered return Date
-20:50:43.806 INFO  TestClasses.BaseClass -Clicked on Search Flights button
-20:50:52.617 INFO  TestClasses.BaseClass -Getting the base URL from Config File
-20:51:30.129 INFO  TestClasses.BaseClass -Opening the base URL
-20:51:31.898 INFO  TestClasses.BaseClass -Clicked on the flights tab
-20:51:32.102 INFO  TestClasses.BaseClass -clicked Round trip radio button
-20:51:33.333 INFO  TestClasses.BaseClass -Entered Origin City
-20:51:34.094 INFO  TestClasses.BaseClass -Entered Destination City
-20:51:34.791 INFO  TestClasses.BaseClass -Entered Departure date
-20:51:35.459 INFO  TestClasses.BaseClass -Entered return Date
-20:51:45.758 INFO  TestClasses.BaseClass -Clicked on Search Flights button
-20:51:51.433 INFO  TestClasses.BaseClass -Getting the base URL from Config File
-20:52:29.361 INFO  TestClasses.BaseClass -Opening the base URL
-20:52:31.203 INFO  TestClasses.BaseClass -Clicked on the flights tab
-20:52:31.407 INFO  TestClasses.BaseClass -clicked Round trip radio button
-20:52:33.049 INFO  TestClasses.BaseClass -Entered Origin City
-20:52:34.129 INFO  TestClasses.BaseClass -Entered Destination City
-20:52:34.724 INFO  TestClasses.BaseClass -Entered Departure date
-20:52:35.560 INFO  TestClasses.BaseClass -Entered return Date
-20:52:46.453 INFO  TestClasses.BaseClass -Clicked on Search Flights button
-20:52:53.990 INFO  TestClasses.BaseClass -Getting the base URL from Config File
-20:53:29.781 INFO  TestClasses.BaseClass -Opening the base URL
-20:53:31.558 INFO  TestClasses.BaseClass -Clicked on the flights tab
-20:53:31.747 INFO  TestClasses.BaseClass -clicked Round trip radio button
-20:53:33.011 INFO  TestClasses.BaseClass -Entered Origin City
-20:53:33.746 INFO  TestClasses.BaseClass -Entered Destination City
-20:53:34.389 INFO  TestClasses.BaseClass -Entered Departure date
-20:53:35.156 INFO  TestClasses.BaseClass -Entered return Date
-20:53:43.176 INFO  TestClasses.BaseClass -Clicked on Search Flights button
-20:53:48.798 INFO  TestClasses.BaseClass -Getting the base URL from Config File
-20:54:31.683 INFO  TestClasses.BaseClass -Opening the base URL
-20:54:33.624 INFO  TestClasses.BaseClass -Clicked on the flights tab
-20:54:33.841 INFO  TestClasses.BaseClass -clicked Round trip radio button
-20:54:35.099 INFO  TestClasses.BaseClass -Entered Origin City
-20:54:35.905 INFO  TestClasses.BaseClass -Entered Destination City
-20:54:36.475 INFO  TestClasses.BaseClass -Entered Departure date
-20:54:37.270 INFO  TestClasses.BaseClass -Entered return Date
-20:55:10.618 INFO  TestClasses.BaseClass -Clicked on Search Flights button
-20:59:12.816 INFO  TestClasses.BaseClass -Getting the base URL from Config File
-20:59:49.516 INFO  TestClasses.BaseClass -Opening the base URL
-20:59:51.339 INFO  TestClasses.BaseClass -Clicked on the flights tab
-20:59:51.561 INFO  TestClasses.BaseClass -clicked Round trip radio button
-20:59:52.785 INFO  TestClasses.BaseClass -Entered Origin City
-20:59:53.352 INFO  TestClasses.BaseClass -Entered Destination City
-20:59:53.888 INFO  TestClasses.BaseClass -Entered Departure date
-20:59:54.610 INFO  TestClasses.BaseClass -Entered return Date
-21:00:11.877 INFO  TestClasses.BaseClass -Clicked on Search Flights button
-21:00:21.777 INFO  TestClasses.BaseClass -Getting the base URL from Config File
-21:01:01.382 INFO  TestClasses.BaseClass -Opening the base URL
-21:01:03.072 INFO  TestClasses.BaseClass -Clicked on the flights tab
-21:01:03.256 INFO  TestClasses.BaseClass -clicked Round trip radio button
-21:01:04.668 INFO  TestClasses.BaseClass -Entered Origin City
-21:01:05.537 INFO  TestClasses.BaseClass -Entered Destination City
-21:01:06.221 INFO  TestClasses.BaseClass -Entered Departure date
-21:01:06.893 INFO  TestClasses.BaseClass -Entered return Date
-21:01:20.074 INFO  TestClasses.BaseClass -Clicked on Search Flights button
-21:01:27.248 INFO  TestClasses.BaseClass -Getting the base URL from Config File
-21:02:08.911 INFO  TestClasses.BaseClass -Opening the base URL
-21:02:10.773 INFO  TestClasses.BaseClass -Clicked on the flights tab
-21:02:11.157 INFO  TestClasses.BaseClass -clicked Round trip radio button
-21:02:12.539 INFO  TestClasses.BaseClass -Entered Origin City
-21:02:13.533 INFO  TestClasses.BaseClass -Entered Destination City
-21:02:14.348 INFO  TestClasses.BaseClass -Entered Departure date
-21:02:15.095 INFO  TestClasses.BaseClass -Entered return Date
-21:02:33.964 INFO  TestClasses.BaseClass -Clicked on Search Flights button
-21:02:41.793 INFO  TestClasses.BaseClass -Getting the base URL from Config File
-21:03:22.110 INFO  TestClasses.BaseClass -Opening the base URL
-21:03:24.143 INFO  TestClasses.BaseClass -Clicked on the flights tab
-21:03:24.399 INFO  TestClasses.BaseClass -clicked Round trip radio button
-21:03:25.717 INFO  TestClasses.BaseClass -Entered Origin City
-21:03:26.461 INFO  TestClasses.BaseClass -Entered Destination City
-21:03:27.143 INFO  TestClasses.BaseClass -Entered Departure date
-21:03:27.946 INFO  TestClasses.BaseClass -Entered return Date
-21:03:40.414 INFO  TestClasses.BaseClass -Clicked on Search Flights button
-21:03:46.898 INFO  TestClasses.BaseClass -Getting the base URL from Config File
-21:04:29.206 INFO  TestClasses.BaseClass -Opening the base URL
-21:04:31.153 INFO  TestClasses.BaseClass -Clicked on the flights tab
-21:04:31.594 INFO  TestClasses.BaseClass -clicked Round trip radio button
-21:04:32.828 INFO  TestClasses.BaseClass -Entered Origin City
-21:04:33.646 INFO  TestClasses.BaseClass -Entered Destination City
-21:04:34.527 INFO  TestClasses.BaseClass -Entered Departure date
-21:04:35.339 INFO  TestClasses.BaseClass -Entered return Date
-21:04:40.049 INFO  TestClasses.BaseClass -Clicked on Search Flights button
-21:08:04.907 INFO  TestClasses.BaseClass -Getting the base URL from Config File
-21:08:47.451 INFO  TestClasses.BaseClass -Opening the base URL
-21:08:49.379 INFO  TestClasses.BaseClass -Clicked on the flights tab
-21:08:49.605 INFO  TestClasses.BaseClass -clicked Round trip radio button
-21:08:51.324 INFO  TestClasses.BaseClass -Entered Origin City
-21:08:52.101 INFO  TestClasses.BaseClass -Entered Destination City
-21:08:52.789 INFO  TestClasses.BaseClass -Entered Departure date
-21:08:53.632 INFO  TestClasses.BaseClass -Entered return Date
-21:08:58.382 INFO  TestClasses.BaseClass -Clicked on Search Flights button
-21:09:11.514 INFO  TestClasses.BaseClass -Getting the base URL from Config File
-21:09:49.430 INFO  TestClasses.BaseClass -Opening the base URL
-21:09:51.299 INFO  TestClasses.BaseClass -Clicked on the flights tab
-21:09:51.882 INFO  TestClasses.BaseClass -clicked Round trip radio button
-21:09:53.073 INFO  TestClasses.BaseClass -Entered Origin City
-21:09:53.894 INFO  TestClasses.BaseClass -Entered Destination City
-21:09:54.537 INFO  TestClasses.BaseClass -Entered Departure date
-21:09:55.470 INFO  TestClasses.BaseClass -Entered return Date
-21:10:25.401 INFO  TestClasses.BaseClass -Clicked on Search Flights button
-21:10:32.469 INFO  TestClasses.BaseClass -Getting the base URL from Config File
-21:11:13.124 INFO  TestClasses.BaseClass -Opening the base URL
-21:11:15.121 INFO  TestClasses.BaseClass -Clicked on the flights tab
-21:11:15.612 INFO  TestClasses.BaseClass -clicked Round trip radio button
-21:11:16.817 INFO  TestClasses.BaseClass -Entered Origin City
-21:11:17.544 INFO  TestClasses.BaseClass -Entered Destination City
-21:11:18.093 INFO  TestClasses.BaseClass -Entered Departure date
-21:11:18.816 INFO  TestClasses.BaseClass -Entered return Date
-21:11:30.329 INFO  TestClasses.BaseClass -Clicked on Search Flights button
-21:11:38.423 INFO  TestClasses.BaseClass -Getting the base URL from Config File
-21:12:19.422 INFO  TestClasses.BaseClass -Opening the base URL
-21:12:21.283 INFO  TestClasses.BaseClass -Clicked on the flights tab
-21:12:21.525 INFO  TestClasses.BaseClass -clicked Round trip radio button
-21:12:23.154 INFO  TestClasses.BaseClass -Entered Origin City
-21:12:23.840 INFO  TestClasses.BaseClass -Entered Destination City
-21:12:24.608 INFO  TestClasses.BaseClass -Entered Departure date
-21:12:25.301 INFO  TestClasses.BaseClass -Entered return Date
-21:12:37.871 INFO  TestClasses.BaseClass -Clicked on Search Flights button
-21:12:43.640 INFO  TestClasses.BaseClass -Getting the base URL from Config File
-21:13:26.434 INFO  TestClasses.BaseClass -Opening the base URL
-21:13:28.670 INFO  TestClasses.BaseClass -Clicked on the flights tab
-21:13:29.196 INFO  TestClasses.BaseClass -clicked Round trip radio button
-21:13:30.337 INFO  TestClasses.BaseClass -Entered Origin City
-21:13:31.197 INFO  TestClasses.BaseClass -Entered Destination City
-21:13:32.116 INFO  TestClasses.BaseClass -Entered Departure date
-21:13:32.864 INFO  TestClasses.BaseClass -Entered return Date
-21:13:37.386 INFO  TestClasses.BaseClass -Clicked on Search Flights button
-21:30:28.636 INFO  TestClasses.BaseClass -Getting the base URL from Config File
-21:31:07.110 INFO  TestClasses.BaseClass -Opening the base URL
-21:31:09.106 INFO  TestClasses.BaseClass -Clicked on the flights tab
-21:31:09.266 INFO  TestClasses.BaseClass -clicked Round trip radio button
-21:31:10.423 INFO  TestClasses.BaseClass -Entered Origin City
-21:31:11.075 INFO  TestClasses.BaseClass -Entered Destination City
-21:31:11.641 INFO  TestClasses.BaseClass -Entered Departure date
-21:31:12.329 INFO  TestClasses.BaseClass -Entered return Date
-21:31:16.068 INFO  TestClasses.BaseClass -Clicked on Search Flights button
-21:31:24.669 INFO  TestClasses.BaseClass -Getting the base URL from Config File
-21:32:06.457 INFO  TestClasses.BaseClass -Opening the base URL
-21:32:08.275 INFO  TestClasses.BaseClass -Clicked on the flights tab
-21:32:09.126 INFO  TestClasses.BaseClass -clicked Round trip radio button
-21:32:09.971 INFO  TestClasses.BaseClass -Entered Origin City
-21:32:10.731 INFO  TestClasses.BaseClass -Entered Destination City
-21:32:11.346 INFO  TestClasses.BaseClass -Entered Departure date
-21:32:12.002 INFO  TestClasses.BaseClass -Entered return Date
-21:32:19.102 INFO  TestClasses.BaseClass -Clicked on Search Flights button
-21:32:25.820 INFO  TestClasses.BaseClass -Getting the base URL from Config File
-21:33:10.151 INFO  TestClasses.BaseClass -Opening the base URL
-21:33:12.669 INFO  TestClasses.BaseClass -Clicked on the flights tab
-21:33:13.486 INFO  TestClasses.BaseClass -clicked Round trip radio button
-21:33:14.363 INFO  TestClasses.BaseClass -Entered Origin City
-21:33:15.232 INFO  TestClasses.BaseClass -Entered Destination City
-21:33:15.852 INFO  TestClasses.BaseClass -Entered Departure date
-21:33:16.525 INFO  TestClasses.BaseClass -Entered return Date
-21:33:20.590 INFO  TestClasses.BaseClass -Clicked on Search Flights button
-21:33:26.994 INFO  TestClasses.BaseClass -Getting the base URL from Config File
-21:34:14.137 INFO  TestClasses.BaseClass -Opening the base URL
-21:34:15.958 INFO  TestClasses.BaseClass -Clicked on the flights tab
-21:34:16.249 INFO  TestClasses.BaseClass -clicked Round trip radio button
-21:34:17.402 INFO  TestClasses.BaseClass -Entered Origin City
-21:34:18.020 INFO  TestClasses.BaseClass -Entered Destination City
-21:34:18.804 INFO  TestClasses.BaseClass -Entered Departure date
-21:34:19.513 INFO  TestClasses.BaseClass -Entered return Date
-21:34:59.712 INFO  TestClasses.BaseClass -Clicked on Search Flights button
-21:35:05.330 INFO  TestClasses.BaseClass -Getting the base URL from Config File
-21:36:00.676 INFO  TestClasses.BaseClass -Opening the base URL
-21:36:02.277 INFO  TestClasses.BaseClass -Clicked on the flights tab
-21:36:02.514 INFO  TestClasses.BaseClass -clicked Round trip radio button
-21:36:03.967 INFO  TestClasses.BaseClass -Entered Origin City
-21:36:04.994 INFO  TestClasses.BaseClass -Entered Destination City
-21:36:05.593 INFO  TestClasses.BaseClass -Entered Departure date
-21:36:06.190 INFO  TestClasses.BaseClass -Entered return Date
-21:36:16.734 INFO  TestClasses.BaseClass -Clicked on Search Flights button
-21:46:11.525 INFO  TestClasses.BaseClass -Getting the base URL from Config File
-21:46:51.342 INFO  TestClasses.BaseClass -Opening the base URL
-21:46:53.104 INFO  TestClasses.BaseClass -Clicked on the flights tab
-21:46:53.305 INFO  TestClasses.BaseClass -clicked Round trip radio button
-21:46:54.666 INFO  TestClasses.BaseClass -Entered Origin City
-21:46:55.382 INFO  TestClasses.BaseClass -Entered Destination City
-21:46:56.224 INFO  TestClasses.BaseClass -Entered Departure date
-21:46:56.942 INFO  TestClasses.BaseClass -Entered return Date
-21:47:06.497 INFO  TestClasses.BaseClass -Clicked on Search Flights button
-21:47:15.875 INFO  TestClasses.BaseClass -Getting the base URL from Config File
-21:47:51.537 INFO  TestClasses.BaseClass -Opening the base URL
-21:47:53.282 INFO  TestClasses.BaseClass -Clicked on the flights tab
-21:47:53.471 INFO  TestClasses.BaseClass -clicked Round trip radio button
-21:47:54.789 INFO  TestClasses.BaseClass -Entered Origin City
-21:47:55.523 INFO  TestClasses.BaseClass -Entered Destination City
-21:47:56.041 INFO  TestClasses.BaseClass -Entered Departure date
-21:47:56.641 INFO  TestClasses.BaseClass -Entered return Date
-21:48:06.786 INFO  TestClasses.BaseClass -Clicked on Search Flights button
-21:48:12.579 INFO  TestClasses.BaseClass -Getting the base URL from Config File
-21:48:51.928 INFO  TestClasses.BaseClass -Opening the base URL
-21:48:53.565 INFO  TestClasses.BaseClass -Clicked on the flights tab
-21:48:53.750 INFO  TestClasses.BaseClass -clicked Round trip radio button
-21:48:54.953 INFO  TestClasses.BaseClass -Entered Origin City
-21:48:56.016 INFO  TestClasses.BaseClass -Entered Destination City
-21:48:56.921 INFO  TestClasses.BaseClass -Entered Departure date
-21:48:57.533 INFO  TestClasses.BaseClass -Entered return Date
-21:49:01.146 INFO  TestClasses.BaseClass -Clicked on Search Flights button
-21:49:08.431 INFO  TestClasses.BaseClass -Getting the base URL from Config File
-21:49:44.153 INFO  TestClasses.BaseClass -Opening the base URL
-21:49:45.926 INFO  TestClasses.BaseClass -Clicked on the flights tab
-21:49:46.104 INFO  TestClasses.BaseClass -clicked Round trip radio button
-21:49:47.255 INFO  TestClasses.BaseClass -Entered Origin City
-21:49:47.909 INFO  TestClasses.BaseClass -Entered Destination City
-21:49:48.549 INFO  TestClasses.BaseClass -Entered Departure date
-21:49:49.177 INFO  TestClasses.BaseClass -Entered return Date
-21:50:03.151 INFO  TestClasses.BaseClass -Clicked on Search Flights button
-21:50:08.779 INFO  TestClasses.BaseClass -Getting the base URL from Config File
-21:50:47.926 INFO  TestClasses.BaseClass -Opening the base URL
-21:50:49.581 INFO  TestClasses.BaseClass -Clicked on the flights tab
-21:50:49.751 INFO  TestClasses.BaseClass -clicked Round trip radio button
-21:50:50.881 INFO  TestClasses.BaseClass -Entered Origin City
-21:50:51.601 INFO  TestClasses.BaseClass -Entered Destination City
-21:50:52.126 INFO  TestClasses.BaseClass -Entered Departure date
-21:50:53.023 INFO  TestClasses.BaseClass -Entered return Date
-21:51:34.436 INFO  TestClasses.BaseClass -Clicked on Search Flights button
+00:24:38.606 INFO  TestClasses.BaseClass -Getting the base URL from Config File
+00:25:05.688 INFO  TestClasses.BaseClass -Opening the base URL
+00:25:13.409 INFO  TestClasses.BaseClass -Clicked on the flights tab
+00:25:14.008 INFO  TestClasses.BaseClass -clicked Round trip radio button
+00:25:15.775 INFO  TestClasses.BaseClass -Entered Origin City
+00:25:16.696 INFO  TestClasses.BaseClass -Entered Destination City
+00:25:17.456 INFO  TestClasses.BaseClass -Entered Departure date
+00:25:18.507 INFO  TestClasses.BaseClass -Entered return Date
+00:25:26.046 INFO  TestClasses.BaseClass -Clicked on Search Flights button
+22:18:35.857 INFO  TestClasses.BaseClass -Getting the base URL from Config File
+22:19:07.837 INFO  TestClasses.BaseClass -Opening the base URL
+22:19:09.965 INFO  TestClasses.BaseClass -Clicked on the flights tab
+22:19:10.212 INFO  TestClasses.BaseClass -clicked Round trip radio button
+22:19:11.370 INFO  TestClasses.BaseClass -Entered Origin City
+22:19:12.197 INFO  TestClasses.BaseClass -Entered Destination City
+22:19:12.797 INFO  TestClasses.BaseClass -Entered Departure date
+22:19:13.439 INFO  TestClasses.BaseClass -Entered return Date
+22:19:18.425 INFO  TestClasses.BaseClass -Clicked on Search Flights button
+23:04:06.602 INFO  TestClasses.BaseClass -Getting the base URL from Config File
+23:04:20.593 INFO  TestClasses.BaseClass -Opening the base URL
+23:04:22.296 INFO  TestClasses.BaseClass -Clicked on the flights tab
+23:04:22.456 INFO  TestClasses.BaseClass -clicked Round trip radio button
+23:04:23.559 INFO  TestClasses.BaseClass -Entered Origin City
+23:04:24.248 INFO  TestClasses.BaseClass -Entered Destination City
+23:04:24.843 INFO  TestClasses.BaseClass -Entered Departure date
+23:04:25.408 INFO  TestClasses.BaseClass -Entered return Date
+23:04:29.258 INFO  TestClasses.BaseClass -Clicked on Search Flights button
+23:08:38.905 INFO  TestClasses.BaseClass -Getting the base URL from Config File
+23:08:50.475 INFO  TestClasses.BaseClass -Opening the base URL
+23:08:52.483 INFO  TestClasses.BaseClass -Clicked on the flights tab
+23:08:53.369 INFO  TestClasses.BaseClass -clicked Round trip radio button
+23:08:54.476 INFO  TestClasses.BaseClass -Entered Origin City
+23:08:55.088 INFO  TestClasses.BaseClass -Entered Destination City
+23:08:55.564 INFO  TestClasses.BaseClass -Entered Departure date
+23:08:56.205 INFO  TestClasses.BaseClass -Entered return Date
+23:09:15.619 INFO  TestClasses.BaseClass -Clicked on Search Flights button
+23:40:39.246 INFO  TestClasses.BaseClass -Getting the base URL from Config File
+23:41:01.165 INFO  TestClasses.BaseClass -Opening the base URL
+23:41:04.028 INFO  TestClasses.BaseClass -Clicked on the flights tab
+23:41:04.393 INFO  TestClasses.BaseClass -clicked Round trip radio button
+23:41:05.844 INFO  TestClasses.BaseClass -Entered Origin City
+23:41:06.664 INFO  TestClasses.BaseClass -Entered Destination City
+23:41:07.537 INFO  TestClasses.BaseClass -Entered Departure date
+23:41:08.464 INFO  TestClasses.BaseClass -Entered return Date
+23:41:12.604 INFO  TestClasses.BaseClass -Clicked on Search Flights button
+23:41:29.369 INFO  TestClasses.BaseClass -Getting the base URL from Config File
+23:41:43.834 INFO  TestClasses.BaseClass -Opening the base URL
+23:41:45.960 INFO  TestClasses.BaseClass -Clicked on the flights tab
+23:41:46.975 INFO  TestClasses.BaseClass -clicked Round trip radio button
+23:41:47.794 INFO  TestClasses.BaseClass -Entered Origin City
+23:41:48.567 INFO  TestClasses.BaseClass -Entered Destination City
+23:41:49.312 INFO  TestClasses.BaseClass -Entered Departure date
+23:41:50.208 INFO  TestClasses.BaseClass -Entered return Date
+23:42:28.145 INFO  TestClasses.BaseClass -Clicked on Search Flights button
+23:42:37.114 INFO  TestClasses.BaseClass -Getting the base URL from Config File
+23:43:40.203 INFO  TestClasses.BaseClass -Opening the base URL
+23:43:41.808 INFO  TestClasses.BaseClass -Clicked on the flights tab
+23:43:41.985 INFO  TestClasses.BaseClass -clicked Round trip radio button
+23:43:43.178 INFO  TestClasses.BaseClass -Entered Origin City
+23:43:43.828 INFO  TestClasses.BaseClass -Entered Destination City
+23:43:44.358 INFO  TestClasses.BaseClass -Entered Departure date
+23:43:45.263 INFO  TestClasses.BaseClass -Entered return Date
+23:43:54.926 INFO  TestClasses.BaseClass -Clicked on Search Flights button
+23:44:02.123 INFO  TestClasses.BaseClass -Getting the base URL from Config File
+23:44:41.414 INFO  TestClasses.BaseClass -Opening the base URL
+23:44:43.078 INFO  TestClasses.BaseClass -Clicked on the flights tab
+23:44:43.300 INFO  TestClasses.BaseClass -clicked Round trip radio button
+23:44:44.414 INFO  TestClasses.BaseClass -Entered Origin City
+23:44:44.986 INFO  TestClasses.BaseClass -Entered Destination City
+23:44:45.593 INFO  TestClasses.BaseClass -Entered Departure date
+23:44:46.276 INFO  TestClasses.BaseClass -Entered return Date
+23:44:56.093 INFO  TestClasses.BaseClass -Clicked on Search Flights button
+23:45:03.901 INFO  TestClasses.BaseClass -Getting the base URL from Config File
+23:45:13.086 INFO  TestClasses.BaseClass -Opening the base URL
+23:45:15.239 INFO  TestClasses.BaseClass -Clicked on the flights tab
+23:45:15.872 INFO  TestClasses.BaseClass -clicked Round trip radio button
+23:45:17.153 INFO  TestClasses.BaseClass -Entered Origin City
+23:45:18.164 INFO  TestClasses.BaseClass -Entered Destination City
+23:45:18.868 INFO  TestClasses.BaseClass -Entered Departure date
+23:45:19.779 INFO  TestClasses.BaseClass -Entered return Date
+23:45:24.344 INFO  TestClasses.BaseClass -Clicked on Search Flights button
+23:47:56.558 INFO  TestClasses.BaseClass -Getting the base URL from Config File
+23:48:09.192 INFO  TestClasses.BaseClass -Opening the base URL
+23:48:11.211 INFO  TestClasses.BaseClass -Clicked on the flights tab
+23:48:11.805 INFO  TestClasses.BaseClass -clicked Round trip radio button
+23:48:13.217 INFO  TestClasses.BaseClass -Entered Origin City
+23:48:14.295 INFO  TestClasses.BaseClass -Entered Destination City
+23:48:15.217 INFO  TestClasses.BaseClass -Entered Departure date
+23:48:16.097 INFO  TestClasses.BaseClass -Entered return Date
+23:48:23.749 INFO  TestClasses.BaseClass -Clicked on Search Flights button
