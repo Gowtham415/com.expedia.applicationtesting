@@ -32,7 +32,6 @@ public class BaseClass {
 	public static Logger logger = LogManager.getLogger(BaseClass.class.getName());
 
 	public static ReadConfig readConfig = new ReadConfig();
-
 	
 	/*
 	 * Variables for Extents Reports.
@@ -50,8 +49,8 @@ public class BaseClass {
 		extent = new ExtentReports();
 		extent.attachReporter(htmlReporter);
 		// Set our document title, theme etc..
-		htmlReporter.config().setDocumentTitle("Rentalhomes");
-		htmlReporter.config().setReportName("Rentalhomes Production Testing");
+		htmlReporter.config().setDocumentTitle("Expedia Testing");
+		htmlReporter.config().setReportName("Expedia Production Testing");
 		htmlReporter.config().setTestViewChartLocation(ChartLocation.TOP);
 		htmlReporter.config().setTheme(Theme.DARK);
 	}

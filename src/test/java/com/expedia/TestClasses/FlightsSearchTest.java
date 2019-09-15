@@ -4,14 +4,17 @@ import java.io.IOException;
 
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import com.expedia.pageObjects.FlightsSearchPagePOM;
+import com.expedia.utilities.JiraPolicy;
 import com.expedia.utilities.XLUtility;
 
 public class FlightsSearchTest extends BaseClass {
 	private static FlightsSearchPagePOM fsp;
 
+	@JiraPolicy(JiraCreateIssue = true)
 	@Test
 	public void Basic_Test_001() throws InterruptedException {
 		
@@ -73,7 +76,7 @@ public class FlightsSearchTest extends BaseClass {
 	}
 
 	/*
-	 * Data Provider Method reading thye test data from xlsx file.
+	 * Data Provider Method reading the test data from xlsx file.
 	 */
 	@DataProvider(name = "Cities")
 	String[][] getData() throws IOException {
