@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 <suite name="COM.EXPEDIA">
 	<test name="FlightsTest">
@@ -11,3 +12,18 @@
 		</classes>
 	</test>
 </suite>
+=======
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="COM.EXPEDIA">
+	<test name="FlightsTest">
+		<classes>
+			<class name="com.expedia.TestClasses.FlightsSearchTest">
+				<methods>
+					<include name="Basic_Test_001"></include>
+					<include name="Basic_Test_002"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>
+>>>>>>> stash
