@@ -12,12 +12,12 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 public class XLUtility {
 
-	public static FileInputStream fi;
-	public static FileOutputStream fo;
-	public static XSSFWorkbook wb;
-	public static XSSFSheet ws;
-	public static XSSFRow row;
-	public static XSSFCell cell;
+	private static FileInputStream fi;
+	private static FileOutputStream fo;
+	private static XSSFWorkbook wb;
+	private static XSSFSheet ws;
+	private static XSSFRow row;
+	private static XSSFCell cell;
 
 	public static int getRowCount(String filename, String sheetName) throws IOException {
 		fi = new FileInputStream(filename);

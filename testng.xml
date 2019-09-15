@@ -5,7 +5,7 @@
 			<class name="com.expedia.TestClasses.FlightsSearchTest">
 				<methods>
 					<include name="Basic_Test_001"></include>
-					<exclude name="Basic_Test_002"></exclude>
+					<include name="Basic_Test_002"></include>
 				</methods>
 			</class>
 		</classes>
