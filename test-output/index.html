@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 4 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-COM.EXPEDIA">
+              <span class="suite-name border-failed">COM.EXPEDIA</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-COM.EXPEDIA">
+                    <span>D:\Selenium\SeleniumWorkSpace\com.expedia\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-COM.EXPEDIA">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-COM.EXPEDIA">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-COM.EXPEDIA">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-COM.EXPEDIA">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-COM.EXPEDIA">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-COM.EXPEDIA">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">5 methods, 4 failed,   1 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-COM.EXPEDIA" class="hide-methods failed suite-COM.EXPEDIA"> (hide)</a> <!-- hide-methods failed suite-COM.EXPEDIA -->
+                      <a href="#" panel-name="suite-COM.EXPEDIA" class="show-methods failed suite-COM.EXPEDIA"> (show)</a> <!-- show-methods failed suite-COM.EXPEDIA -->
+                    </span>
+                    <div class="method-list-content failed suite-COM.EXPEDIA">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-COM.EXPEDIA" title="com.expedia.TestClasses.FlightsSearchTest" hash-for-method="Basic_Test_001">Basic_Test_001</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-COM.EXPEDIA" title="com.expedia.TestClasses.FlightsSearchTest" hash-for-method="Basic_Test_002(Mumbai, kolkata, 01/09/2019, 11/09/2019)">Basic_Test_002(Mumbai, kolkata, 01/09/2019, 11/09/2019)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-COM.EXPEDIA" title="com.expedia.TestClasses.FlightsSearchTest" hash-for-method="Basic_Test_002(Bangalore, Chennai, 15/08/2019, 25/08/2019)">Basic_Test_002(Bangalore, Chennai, 15/08/2019, 25/08/2019)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-COM.EXPEDIA" title="com.expedia.TestClasses.FlightsSearchTest" hash-for-method="Basic_Test_002(Hyderabad, New Delhi, 25/08/2019, 15/09/2019)">Basic_Test_002(Hyderabad, New Delhi, 25/08/2019, 15/09/2019)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-COM.EXPEDIA -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-COM.EXPEDIA" class="hide-methods passed suite-COM.EXPEDIA"> (hide)</a> <!-- hide-methods passed suite-COM.EXPEDIA -->
+                      <a href="#" panel-name="suite-COM.EXPEDIA" class="show-methods passed suite-COM.EXPEDIA"> (show)</a> <!-- show-methods passed suite-COM.EXPEDIA -->
+                    </span>
+                    <div class="method-list-content passed suite-COM.EXPEDIA">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-COM.EXPEDIA" title="com.expedia.TestClasses.FlightsSearchTest" hash-for-method="Basic_Test_002(Mumbai, New York, 15/09/2019, 25/09/2019)">Basic_Test_002(Mumbai, New York, 15/09/2019, 25/09/2019)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-COM.EXPEDIA -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-COM.EXPEDIA" class="panel COM.EXPEDIA">
+          <div class="suite-COM.EXPEDIA-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.expedia.TestClasses.FlightsSearchTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Basic_Test_001">
+                  </a> <!-- Basic_Test_001 -->
+                  <span class="method-name">Basic_Test_001</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator &apos;By.id: tab-flight-tab-hp&apos; (tried for 15 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:113)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:283)
+	at com.expedia.utilities.ExplicitWaitsUtility.waitUntilElementisClickable(ExplicitWaitsUtility.java:23)
+	at com.expedia.pageObjects.FlightsSearchPagePOM.clickFlightsTab(FlightsSearchPagePOM.java:51)
+	at com.expedia.TestClasses.FlightsSearchTest.Basic_Test_001(FlightsSearchTest.java:22)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;id&quot;,&quot;selector&quot;:&quot;tab-flight-tab-hp&quot;}
+  (Session info: chrome=76.0.3809.132)
+  (Driver info: chromedriver=71.0.3578.137 (86ee722808adfe9e3c92e6e8ea746ade08423c7e),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;DREAMWORKS&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_112&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 71.0.3578.137 (86ee722808ad..., userDataDir: C:\Users\Gowtham\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:50997}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 76.0.3809.132, webStorageEnabled: true}
+Session ID: d26640e1e9df791ecade00efdbe26737
+*** Element info: {Using=id, value=tab-flight-tab-hp}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:368)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy28.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:315)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$100(ExpectedConditions.java:44)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:301)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:298)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:686)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:682)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:260)
+	... 28 more
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Basic_Test_002(Mumbai, kolkata, 01/09/2019, 11/09/2019)">
+                  </a> <!-- Basic_Test_002(Mumbai, kolkata, 01/09/2019, 11/09/2019) -->
+                  <span class="method-name">Basic_Test_002</span>
+                  <span class="parameters">(Mumbai, kolkata, 01/09/2019, 11/09/2019)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at com.expedia.TestClasses.FlightsSearchTest.Basic_Test_002(FlightsSearchTest.java:72)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Basic_Test_002(Bangalore, Chennai, 15/08/2019, 25/08/2019)">
+                  </a> <!-- Basic_Test_002(Bangalore, Chennai, 15/08/2019, 25/08/2019) -->
+                  <span class="method-name">Basic_Test_002</span>
+                  <span class="parameters">(Bangalore, Chennai, 15/08/2019, 25/08/2019)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at com.expedia.TestClasses.FlightsSearchTest.Basic_Test_002(FlightsSearchTest.java:72)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Basic_Test_002(Hyderabad, New Delhi, 25/08/2019, 15/09/2019)">
+                  </a> <!-- Basic_Test_002(Hyderabad, New Delhi, 25/08/2019, 15/09/2019) -->
+                  <span class="method-name">Basic_Test_002</span>
+                  <span class="parameters">(Hyderabad, New Delhi, 25/08/2019, 15/09/2019)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at com.expedia.TestClasses.FlightsSearchTest.Basic_Test_002(FlightsSearchTest.java:72)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-COM.EXPEDIA-class-failed -->
+          <div class="suite-COM.EXPEDIA-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.expedia.TestClasses.FlightsSearchTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Basic_Test_002(Mumbai, New York, 15/09/2019, 25/09/2019)">
+                  </a> <!-- Basic_Test_002(Mumbai, New York, 15/09/2019, 25/09/2019) -->
+                  <span class="method-name">Basic_Test_002</span>
+                  <span class="parameters">(Mumbai, New York, 15/09/2019, 25/09/2019)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-COM.EXPEDIA-class-passed -->
+        </div> <!-- panel COM.EXPEDIA -->
+        <div panel-name="test-xml-COM.EXPEDIA" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\Selenium\SeleniumWorkSpace\com.expedia\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;COM.EXPEDIA&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;FlightsTest&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.expedia.TestClasses.FlightsSearchTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;Basic_Test_001&quot;/&gt;
+          &lt;include name=&quot;Basic_Test_002&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.expedia.TestClasses.FlightsSearchTest --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- FlightsTest --&gt;
+&lt;/suite&gt; &lt;!-- COM.EXPEDIA --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-COM.EXPEDIA" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for COM.EXPEDIA</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">FlightsTest (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-COM.EXPEDIA" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for COM.EXPEDIA</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-COM.EXPEDIA" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for COM.EXPEDIA</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_COM.EXPEDIA');
+function tableData_COM.EXPEDIA() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(5);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'Basic_Test_002')
+data.setCell(0, 2, 'com.expedia.TestClasses.FlightsSearchTest')
+data.setCell(0, 3, 18745);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'Basic_Test_001')
+data.setCell(1, 2, 'com.expedia.TestClasses.FlightsSearchTest')
+data.setCell(1, 3, 15350);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'Basic_Test_002')
+data.setCell(2, 2, 'com.expedia.TestClasses.FlightsSearchTest')
+data.setCell(2, 3, 7268);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'Basic_Test_002')
+data.setCell(3, 2, 'com.expedia.TestClasses.FlightsSearchTest')
+data.setCell(3, 3, 6154);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'Basic_Test_002')
+data.setCell(4, 2, 'com.expedia.TestClasses.FlightsSearchTest')
+data.setCell(4, 3, 6111);
+window.suiteTableData['COM.EXPEDIA']= { tableData: data, tableDiv: 'times-div-COM.EXPEDIA'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 53 seconds</span>
+              <div id="times-div-COM.EXPEDIA">
+              </div> <!-- times-div-COM.EXPEDIA -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-COM.EXPEDIA" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for COM.EXPEDIA</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-COM.EXPEDIA" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-COM.EXPEDIA" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.expedia.TestClasses.FlightsSearchTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeTest</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">812 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Basic_Test_001</span>
+                <span class="method-start">51027 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=Basic_Test_001 status=FAILURE method=FlightsSearchTest.Basic_Test_001()[pri:0, inst...)</span>
+                <span class="method-start">66402 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">69897 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Basic_Test_002(Bangalore, Chennai, 15/08/2019, 25/08/2019)</span>
+                <span class="method-start">142934 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=Basic_Test_002 status=FAILURE method=FlightsSearchTest.Basic_Test_002(java.lang.Str...)</span>
+                <span class="method-start">150208 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">151454 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Basic_Test_002(Hyderabad, New Delhi, 25/08/2019, 15/09/2019)</span>
+                <span class="method-start">202357 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=Basic_Test_002 status=FAILURE method=FlightsSearchTest.Basic_Test_002(java.lang.Str...)</span>
+                <span class="method-start">208472 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">209594 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Basic_Test_002(Mumbai, kolkata, 01/09/2019, 11/09/2019)</span>
+                <span class="method-start">300505 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=Basic_Test_002 status=FAILURE method=FlightsSearchTest.Basic_Test_002(java.lang.Str...)</span>
+                <span class="method-start">306665 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">307860 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Basic_Test_002(Mumbai, New York, 15/09/2019, 25/09/2019)</span>
+                <span class="method-start">353187 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=Basic_Test_002 status=SUCCESS method=FlightsSearchTest.Basic_Test_002(java.lang.Str...)</span>
+                <span class="method-start">371935 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
