@@ -14,7 +14,7 @@ import com.expedia.utilities.XLUtility;
 public class FlightsSearchTest extends BaseClass {
 	private static FlightsSearchPagePOM fsp;
 
-	@JiraPolicy(JiraCreateIssue = true)
+	@JiraPolicy(logTicketReady = true)
 	@Test
 	public void Basic_Test_001() throws InterruptedException {
 		
@@ -84,9 +84,9 @@ public class FlightsSearchTest extends BaseClass {
 		int rowcount = XLUtility.getRowCount(path, "Sheet1");
 		int colcount = XLUtility.getCellCount(path, "Sheet1", 1);
 		String[][] data = new String[rowcount][colcount];
-		for (int i = 1; i <= rowcount; i++) {//
+		for (int i = 0; i < rowcount; i++) {//
 			for (int j = 0; j < colcount; j++) {
-				data[i - 1][j] = XLUtility.getCellValue(path, "Sheet1", i, j);
+				data[i][j] = XLUtility.getCellValue(path, "Sheet1", i, j);
 			}
 		}
 		return data;
