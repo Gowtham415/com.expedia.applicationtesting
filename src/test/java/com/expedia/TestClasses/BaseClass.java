@@ -61,9 +61,10 @@ public class BaseClass {
 		driver = new ChromeDriver();
 		baseurl = readConfig.getBaseUrl();
 		logger.info("Getting the base URL from Config File");
+		driver.manage().window().maximize();
 		driver.get(baseurl);
 		logger.info("Opening the base URL");
-		driver.manage().window().maximize();
+		
 	}
 
 	@AfterMethod

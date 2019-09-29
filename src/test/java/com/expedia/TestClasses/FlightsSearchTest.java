@@ -14,7 +14,7 @@ import com.expedia.utilities.XLUtility;
 public class FlightsSearchTest extends BaseClass {
 	private static FlightsSearchPagePOM fsp;
 
-	@JiraPolicy(logTicketReady = true)
+	@JiraPolicy(logTicketReady=false)
 	@Test
 	public void Basic_Test_001() throws InterruptedException {
 		
