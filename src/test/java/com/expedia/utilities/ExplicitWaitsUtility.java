@@ -1,5 +1,6 @@
 package com.expedia.utilities;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -15,11 +16,11 @@ public class ExplicitWaitsUtility {
 		wait = new WebDriverWait(driver,15);
 	}
 	
-	public WebElement waitUntilElementisVisible(WebElement element){
-		return wait.until(ExpectedConditions.visibilityOf(element));
+	public WebElement waitUntilElementisVisible(By returnRadioButton){
+		return wait.until(ExpectedConditions.visibilityOfElementLocated(returnRadioButton));
 	}
 	
-	public WebElement waitUntilElementisClickable(WebElement element){
-		return wait.until(ExpectedConditions.elementToBeClickable(element));
+	public WebElement waitUntilElementisClickable(By flightsTab){
+		return wait.until(ExpectedConditions.elementToBeClickable(flightsTab));
 	}
 }
