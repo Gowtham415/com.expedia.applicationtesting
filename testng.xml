@@ -1,7 +1,7 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 <suite name="COM.EXPEDIA">
 	<listeners>
-		<listener class-name="com.expedia.utilities.ExpediaListener"></listener>
+		<listener class-name="com.expedia.listeners.ReportListener"></listener>
 	</listeners>
 	<test name="FlightsTest">
 		<classes>
