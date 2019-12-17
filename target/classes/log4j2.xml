@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Configuration>
 	<Properties>
-		<Property name="basePath">D:\\Selenium\\SeleniumWorkSpace\\com.expedia\\logs</Property>
+		<Property name="basePath">./logs</Property>
 	</Properties>
 	<Appenders>
 		<RollingFile name="File" fileName="${basePath}\\app.log" filePattern="${basePath}/app-%d{yyyy-MM-dd}.log">

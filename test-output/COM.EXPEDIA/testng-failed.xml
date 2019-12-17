@@ -2,7 +2,7 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [COM.EXPEDIA]">
   <listeners>
-    <listener class-name="com.expedia.utilities.ExpediaListener"/>
+    <listener class-name="com.expedia.listeners.ReportListener"/>
   </listeners>
   <test thread-count="5" name="FlightsTest(failed)">
     <classes>
@@ -10,7 +10,7 @@
         <methods>
           <include name="tearDown"/>
           <include name="setUp"/>
-          <include name="Basic_Test_002"/>
+          <include name="Basic_Test_002" invocation-numbers="0 1 2 3"/>
           <include name="Basic_Test_001"/>
           <include name="beforeTest"/>
         </methods>

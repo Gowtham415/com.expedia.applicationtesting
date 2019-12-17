@@ -31,21 +31,6 @@ public class ReadConfig {
 		return property.getProperty("baseurl");
 	}
 
-	public String getOriginCity() {
-		return property.getProperty("originCity");
-	}
-
-	public String getDestinationCity() {
-		return property.getProperty("Destination");
-	}
-
-	public String getDepartureDate() {
-		return property.getProperty("departuredate");
-	}
-
-	public String getReturnDate() {
-		return property.getProperty("returndate");
-	}
 
 	// Like the Above method add all the methods for all variables in
 	// config.properties file.

@@ -24,9 +24,10 @@ public class XLUtility {
 		wb = new XSSFWorkbook(fi);
 		ws = wb.getSheet(sheetName);
 		int rowcount = ws.getLastRowNum();
+		System.out.println("Last Row Number:" + rowcount);
 		wb.close();
 		fi.close();
-		return rowcount;
+		return rowcount + 1;
 	}
 
 	public static int getCellCount(String filename, String sheetName, int rownum) throws IOException {

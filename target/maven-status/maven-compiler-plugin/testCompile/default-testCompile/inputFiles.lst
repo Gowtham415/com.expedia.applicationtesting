@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 D:\Selenium\SeleniumWorkSpace\com.expedia\src\test\java\com\expedia\TestClasses\FlightsSearchTest.java
 D:\Selenium\SeleniumWorkSpace\com.expedia\src\test\java\com\expedia\utilities\JiraServiceProvider.java
 D:\Selenium\SeleniumWorkSpace\com.expedia\src\test\java\com\expedia\utilities\RandomData.java
@@ -8,3 +9,17 @@ D:\Selenium\SeleniumWorkSpace\com.expedia\src\test\java\com\expedia\utilities\Ex
 D:\Selenium\SeleniumWorkSpace\com.expedia\src\test\java\com\expedia\utilities\ReadConfig.java
 D:\Selenium\SeleniumWorkSpace\com.expedia\src\test\java\com\expedia\utilities\XLUtility.java
 D:\Selenium\SeleniumWorkSpace\com.expedia\src\test\java\com\expedia\TestClasses\BaseClass.java
+=======
+D:\WorkSpace\Selenium\expedia\com.expedia.applicationtesting\src\test\java\com\expedia\utilities\JiraPolicy.java
+D:\WorkSpace\Selenium\expedia\com.expedia.applicationtesting\src\test\java\com\expedia\utilities\RandomData.java
+D:\WorkSpace\Selenium\expedia\com.expedia.applicationtesting\src\test\java\com\expedia\TestClasses\BaseClass.java
+D:\WorkSpace\Selenium\expedia\com.expedia.applicationtesting\src\test\java\com\expedia\TestClasses\FlightsSearchTest.java
+D:\WorkSpace\Selenium\expedia\com.expedia.applicationtesting\src\test\java\com\expedia\listeners\JiraServiceProvider.java
+D:\WorkSpace\Selenium\expedia\com.expedia.applicationtesting\src\test\java\com\expedia\pageObjects\FlightsSearchPagePOM.java
+D:\WorkSpace\Selenium\expedia\com.expedia.applicationtesting\src\test\java\com\expedia\utilities\ExplicitWaitsUtility.java
+D:\WorkSpace\Selenium\expedia\com.expedia.applicationtesting\src\test\java\com\expedia\utilities\ExpediaListener.java
+D:\WorkSpace\Selenium\expedia\com.expedia.applicationtesting\src\test\java\com\expedia\utilities\XLUtility.java
+D:\WorkSpace\Selenium\expedia\com.expedia.applicationtesting\src\test\java\com\expedia\utilities\ReadConfig.java
+D:\WorkSpace\Selenium\expedia\com.expedia.applicationtesting\src\test\java\com\expedia\listeners\ReportListener.java
+D:\WorkSpace\Selenium\expedia\com.expedia.applicationtesting\src\test\java\com\expedia\utilities\ScreenShots.java
+>>>>>>> branch 'master' of https://github.com/Gowtham415/com.expedia.applicationtesting.git

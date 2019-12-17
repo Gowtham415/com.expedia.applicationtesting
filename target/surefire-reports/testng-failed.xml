@@ -2,7 +2,11 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [COM.EXPEDIA]" guice-stage="DEVELOPMENT" verbose="0">
   <listeners>
+<<<<<<< HEAD
     <listener class-name="com.expedia.utilities.ExpediaListener"/>
+=======
+    <listener class-name="com.expedia.listeners.ReportListener"/>
+>>>>>>> branch 'master' of https://github.com/Gowtham415/com.expedia.applicationtesting.git
   </listeners>
   <test thread-count="5" name="FlightsTest(failed)" verbose="0">
     <classes>
@@ -10,7 +14,10 @@
         <methods>
           <include name="tearDown"/>
           <include name="setUp"/>
+<<<<<<< HEAD
           <include name="Basic_Test_002"/>
+=======
+>>>>>>> branch 'master' of https://github.com/Gowtham415/com.expedia.applicationtesting.git
           <include name="Basic_Test_001"/>
           <include name="beforeTest"/>
         </methods>
