@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [COM.EXPEDIA]">
-  <test thread-count="5" verbose="0" name="FlightsTest(failed)">
+<suite name="Failed suite [COM.EXPEDIA]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="com.expedia.utilities.ExpediaListener"/>
+  </listeners>
+  <test thread-count="5" name="FlightsTest(failed)" verbose="0">
     <classes>
       <class name="com.expedia.TestClasses.FlightsSearchTest">
         <methods>
           <include name="tearDown"/>
           <include name="setUp"/>
-          <include name="Basic_Test_002" invocation-numbers="0"/>
+          <include name="Basic_Test_002"/>
           <include name="Basic_Test_001"/>
           <include name="beforeTest"/>
         </methods>

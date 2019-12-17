@@ -1,20 +1,12 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 5, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 449.241 sec <<< FAILURE! - in TestSuite
-Basic_Test_001(com.expedia.TestClasses.FlightsSearchTest)  Time elapsed: 6.199 sec  <<< FAILURE!
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 1, Time elapsed: 94.96 sec <<< FAILURE! - in TestSuite
+Basic_Test_001(com.expedia.TestClasses.FlightsSearchTest)  Time elapsed: 6.272 sec  <<< FAILURE!
 java.lang.AssertionError: expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:96)
 	at org.testng.Assert.failNotEquals(Assert.java:776)
 	at org.testng.Assert.assertTrue(Assert.java:44)
 	at org.testng.Assert.assertTrue(Assert.java:54)
-	at com.expedia.TestClasses.FlightsSearchTest.Basic_Test_001(FlightsSearchTest.java:42)
-
-Basic_Test_002(com.expedia.TestClasses.FlightsSearchTest)  Time elapsed: 6.451 sec  <<< FAILURE!
-java.lang.AssertionError: expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:96)
-	at org.testng.Assert.failNotEquals(Assert.java:776)
-	at org.testng.Assert.assertTrue(Assert.java:44)
-	at org.testng.Assert.assertTrue(Assert.java:54)
-	at com.expedia.TestClasses.FlightsSearchTest.Basic_Test_002(FlightsSearchTest.java:72)
+	at com.expedia.TestClasses.FlightsSearchTest.Basic_Test_001(FlightsSearchTest.java:44)
 
