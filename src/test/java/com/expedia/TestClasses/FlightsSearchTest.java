@@ -7,6 +7,7 @@ import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 import com.expedia.pageObjects.FlightsSearchPagePOM;
+import com.expedia.utilities.DatesUtility;
 import com.expedia.utilities.JiraPolicy;
 import com.expedia.utilities.XLUtility;
 
@@ -34,13 +35,11 @@ public class FlightsSearchTest extends BaseClass {
 	@Test
 	public void Basic_Test_001() throws InterruptedException {
 		String basePage = driver.getCurrentUrl();
-		page.getInstance(FlightsSearchPagePOM.class).searchForFlights_Return("Hyderabad", "Bengaluru", "01/01/2020", "10/01/2020");
+		page.getInstance(FlightsSearchPagePOM.class).searchForFlights_Return("Hyderabad", "Bengaluru", DatesUtility.getFutureDateAsString(10), DatesUtility.getFutureDateAsString(15));
 		String nxtPage= driver.getCurrentUrl();
-		if(basePage.equals(nxtPage)) {
-			Assert.assertTrue(true);
-		}else {
-			Assert.assertFalse(false);
-		}
+		
+		//ER1
+		Assert.assertEquals(basePage, nxtPage);	
 	}
 
 	@Test(dataProvider = "Cities") // Using the data provider method for test
@@ -49,12 +48,25 @@ public class FlightsSearchTest extends BaseClass {
 		String basePage = driver.getCurrentUrl();
 		page.getInstance(FlightsSearchPagePOM.class).searchForFlights_Return(originCity, destinationCity, departureTime, returnDate);
 		String nxtPage= driver.getCurrentUrl();
-		if(basePage.equals(nxtPage)) {
-			Assert.assertTrue(true);
-		}else {
-			Assert.assertFalse(false);
-		}
 		
+		//ER1
+		Assert.assertEquals(basePage, nxtPage);	
+	}
+	
+	// Selecting departure from calendar for One way trip
+	@Test
+	public void readFromCalendar() {
+		page.getInstance(FlightsSearchPagePOM.class).clickFlightsTab();
+		page.getInstance(FlightsSearchPagePOM.class).clickOnewayRadioButton();
+		page.getInstance(FlightsSearchPagePOM.class).setOriginCity("Hyderabad");
+		page.getInstance(FlightsSearchPagePOM.class).setDestinationCity("New Delhi");
+		page.getInstance(FlightsSearchPagePOM.class).setDepartureDateOneWayFromCalendar(DatesUtility.getFutureDateAsString(10));
+		String basePage = driver.getCurrentUrl();
+		page.getInstance(FlightsSearchPagePOM.class).clickSearchFlights();
+		String nxtPage= driver.getCurrentUrl();
+		
+		// ER1
+		Assert.assertEquals(basePage, nxtPage);	
 	}
 
 	

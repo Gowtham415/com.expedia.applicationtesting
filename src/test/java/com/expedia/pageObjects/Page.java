@@ -9,7 +9,7 @@ public class Page {
 
 	public Page(WebDriver driver) {
 		this.driver = driver;
-		this.wait = new WebDriverWait(this.driver, 20);
+		this.wait = new WebDriverWait(this.driver, 10);
 	}
 
 	public <Test extends BasePage> Test getInstance(Class<Test> pageClass) {

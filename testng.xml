@@ -9,6 +9,7 @@
 				<methods>
 					<include name="Basic_Test_001"></include>
 					<include name="Basic_Test_002"></include>
+					<include name="readFromCalendar"></include>
 				</methods>
 			</class>
 		</classes>
