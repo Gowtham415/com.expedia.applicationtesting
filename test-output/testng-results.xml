@@ -1,52 +1,78 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+<testng-results ignored="2" total="3" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
+<<<<<<< HEAD
 <<<<<<< HEAD
   <suite name="COM.EXPEDIA" duration-ms="78189" started-at="2019-12-08T13:35:36Z" finished-at="2019-12-08T13:36:54Z">
 =======
   <suite name="COM.EXPEDIA" duration-ms="104731" started-at="2020-01-01T08:38:17Z" finished-at="2020-01-01T08:40:01Z">
 >>>>>>> refs/heads/RefBranch
+=======
+  <suite started-at="2019-12-22T16:21:37Z" name="COM.EXPEDIA" finished-at="2019-12-22T16:22:15Z" duration-ms="37577">
+>>>>>>> branch 'master' of https://github.com/Gowtham415/com.expedia.applicationtesting.git
     <groups>
     </groups>
+<<<<<<< HEAD
 <<<<<<< HEAD
     <test name="FlightsTest" duration-ms="78189" started-at="2019-12-08T13:35:36Z" finished-at="2019-12-08T13:36:54Z">
 =======
     <test name="FlightsTest" duration-ms="104731" started-at="2020-01-01T08:38:17Z" finished-at="2020-01-01T08:40:01Z">
 >>>>>>> refs/heads/RefBranch
+=======
+    <test started-at="2019-12-22T16:21:37Z" name="FlightsTest" finished-at="2019-12-22T16:22:15Z" duration-ms="37577">
+>>>>>>> branch 'master' of https://github.com/Gowtham415/com.expedia.applicationtesting.git
       <class name="com.expedia.TestClasses.FlightsSearchTest">
+<<<<<<< HEAD
 <<<<<<< HEAD
         <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.expedia.TestClasses.FlightsSearchTest@368f2016]" name="beforeTest" is-config="true" duration-ms="11" started-at="2019-12-08T13:35:36Z" finished-at="2019-12-08T13:35:36Z">
 =======
         <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.expedia.TestClasses.FlightsSearchTest@368f2016]" name="beforeTest" is-config="true" duration-ms="17" started-at="2020-01-01T08:38:17Z" finished-at="2020-01-01T08:38:17Z">
 >>>>>>> refs/heads/RefBranch
+=======
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.expedia.TestClasses.FlightsSearchTest@512baff6]" started-at="2019-12-22T16:21:38Z" name="beforeTest" finished-at="2019-12-22T16:21:38Z" duration-ms="25" status="PASS">
+>>>>>>> branch 'master' of https://github.com/Gowtham415/com.expedia.applicationtesting.git
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
+<<<<<<< HEAD
 <<<<<<< HEAD
         <test-method status="PASS" signature="setUp()[pri:0, instance:com.expedia.TestClasses.FlightsSearchTest@368f2016]" name="setUp" is-config="true" duration-ms="6583" started-at="2019-12-08T13:35:36Z" finished-at="2019-12-08T13:35:43Z">
 =======
         <test-method status="PASS" signature="setUp()[pri:0, instance:com.expedia.TestClasses.FlightsSearchTest@368f2016]" name="setUp" is-config="true" duration-ms="12040" started-at="2020-01-01T08:38:17Z" finished-at="2020-01-01T08:38:29Z">
 >>>>>>> refs/heads/RefBranch
+=======
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.expedia.TestClasses.FlightsSearchTest@512baff6]" started-at="2019-12-22T16:21:38Z" name="setUp" finished-at="2019-12-22T16:21:57Z" duration-ms="19357" status="PASS">
+>>>>>>> branch 'master' of https://github.com/Gowtham415/com.expedia.applicationtesting.git
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
+<<<<<<< HEAD
 <<<<<<< HEAD
         <test-method status="PASS" signature="Basic_Test_001()[pri:0, instance:com.expedia.TestClasses.FlightsSearchTest@368f2016]" name="Basic_Test_001" duration-ms="6607" started-at="2019-12-08T13:35:43Z" finished-at="2019-12-08T13:35:49Z">
 =======
         <test-method status="PASS" signature="Basic_Test_001()[pri:0, instance:com.expedia.TestClasses.FlightsSearchTest@368f2016]" name="Basic_Test_001" duration-ms="7592" started-at="2020-01-01T08:38:29Z" finished-at="2020-01-01T08:38:36Z">
 >>>>>>> refs/heads/RefBranch
+=======
+        <test-method signature="readFromCalendar()[pri:0, instance:com.expedia.TestClasses.FlightsSearchTest@512baff6]" started-at="2019-12-22T16:21:57Z" name="readFromCalendar" finished-at="2019-12-22T16:22:11Z" duration-ms="14293" status="PASS">
+>>>>>>> branch 'master' of https://github.com/Gowtham415/com.expedia.applicationtesting.git
           <reporter-output>
           </reporter-output>
+<<<<<<< HEAD
         </test-method> <!-- Basic_Test_001 -->
 <<<<<<< HEAD
         <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.expedia.TestClasses.FlightsSearchTest@368f2016]" name="tearDown" is-config="true" duration-ms="493" started-at="2019-12-08T13:35:50Z" finished-at="2019-12-08T13:35:50Z">
 =======
         <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.expedia.TestClasses.FlightsSearchTest@368f2016]" name="tearDown" is-config="true" duration-ms="340" started-at="2020-01-01T08:38:37Z" finished-at="2020-01-01T08:38:37Z">
 >>>>>>> refs/heads/RefBranch
+=======
+        </test-method> <!-- readFromCalendar -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.expedia.TestClasses.FlightsSearchTest@512baff6]" started-at="2019-12-22T16:22:13Z" name="tearDown" finished-at="2019-12-22T16:22:15Z" duration-ms="1714" status="PASS">
+>>>>>>> branch 'master' of https://github.com/Gowtham415/com.expedia.applicationtesting.git
           <params>
             <param index="0">
               <value>
+<<<<<<< HEAD
                 <![CDATA[[TestResult name=Basic_Test_001 status=SUCCESS method=FlightsSearchTest.Basic_Test_001()[pri:0, instance:com.expedia.TestClasses.FlightsSearchTest@368f2016] output={null}]]]>
               </value>
             </param>
@@ -260,6 +286,9 @@
             <param index="0">
               <value>
                 <![CDATA[[TestResult name=Basic_Test_002 status=SUCCESS method=FlightsSearchTest.Basic_Test_002(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.expedia.TestClasses.FlightsSearchTest@368f2016] output={null}]]]>
+=======
+                <![CDATA[[TestResult name=readFromCalendar status=SUCCESS method=FlightsSearchTest.readFromCalendar()[pri:0, instance:com.expedia.TestClasses.FlightsSearchTest@512baff6] output={null}]]]>
+>>>>>>> branch 'master' of https://github.com/Gowtham415/com.expedia.applicationtesting.git
               </value>
             </param>
           </params>
