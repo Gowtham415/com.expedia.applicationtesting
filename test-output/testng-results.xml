@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="COM.EXPEDIA" duration-ms="88747" started-at="2019-12-08T12:18:18Z" finished-at="2019-12-08T12:19:46Z">
+  <suite name="COM.EXPEDIA" duration-ms="104731" started-at="2020-01-01T08:38:17Z" finished-at="2020-01-01T08:40:01Z">
     <groups>
     </groups>
-    <test name="FlightsTest" duration-ms="88747" started-at="2019-12-08T12:18:18Z" finished-at="2019-12-08T12:19:46Z">
+    <test name="FlightsTest" duration-ms="104731" started-at="2020-01-01T08:38:17Z" finished-at="2020-01-01T08:40:01Z">
       <class name="com.expedia.TestClasses.FlightsSearchTest">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.expedia.TestClasses.FlightsSearchTest@368f2016]" name="beforeTest" is-config="true" duration-ms="16" started-at="2019-12-08T12:18:18Z" finished-at="2019-12-08T12:18:18Z">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.expedia.TestClasses.FlightsSearchTest@368f2016]" name="beforeTest" is-config="true" duration-ms="17" started-at="2020-01-01T08:38:17Z" finished-at="2020-01-01T08:38:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.expedia.TestClasses.FlightsSearchTest@368f2016]" name="setUp" is-config="true" duration-ms="10287" started-at="2019-12-08T12:18:18Z" finished-at="2019-12-08T12:18:28Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.expedia.TestClasses.FlightsSearchTest@368f2016]" name="setUp" is-config="true" duration-ms="12040" started-at="2020-01-01T08:38:17Z" finished-at="2020-01-01T08:38:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="Basic_Test_001()[pri:0, instance:com.expedia.TestClasses.FlightsSearchTest@368f2016]" name="Basic_Test_001" duration-ms="7707" started-at="2019-12-08T12:18:28Z" finished-at="2019-12-08T12:18:36Z">
+        <test-method status="PASS" signature="Basic_Test_001()[pri:0, instance:com.expedia.TestClasses.FlightsSearchTest@368f2016]" name="Basic_Test_001" duration-ms="7592" started-at="2020-01-01T08:38:29Z" finished-at="2020-01-01T08:38:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Basic_Test_001 -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.expedia.TestClasses.FlightsSearchTest@368f2016]" name="tearDown" is-config="true" duration-ms="2098" started-at="2019-12-08T12:18:36Z" finished-at="2019-12-08T12:18:38Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.expedia.TestClasses.FlightsSearchTest@368f2016]" name="tearDown" is-config="true" duration-ms="340" started-at="2020-01-01T08:38:37Z" finished-at="2020-01-01T08:38:37Z">
           <params>
             <param index="0">
               <value>
@@ -30,11 +30,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.expedia.TestClasses.FlightsSearchTest@368f2016]" name="setUp" is-config="true" duration-ms="7433" started-at="2019-12-08T12:18:39Z" finished-at="2019-12-08T12:18:46Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.expedia.TestClasses.FlightsSearchTest@368f2016]" name="setUp" is-config="true" duration-ms="10215" started-at="2020-01-01T08:38:39Z" finished-at="2020-01-01T08:38:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="Basic_Test_002(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.expedia.TestClasses.FlightsSearchTest@368f2016]" name="Basic_Test_002" duration-ms="6773" started-at="2019-12-08T12:18:46Z" data-provider="Cities" finished-at="2019-12-08T12:18:53Z">
+        <test-method status="PASS" signature="Basic_Test_002(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.expedia.TestClasses.FlightsSearchTest@368f2016]" name="Basic_Test_002" duration-ms="8230" started-at="2020-01-01T08:38:49Z" data-provider="Cities" finished-at="2020-01-01T08:38:57Z">
           <params>
             <param index="0">
               <value>
@@ -60,7 +60,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Basic_Test_002 -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.expedia.TestClasses.FlightsSearchTest@368f2016]" name="tearDown" is-config="true" duration-ms="2090" started-at="2019-12-08T12:18:53Z" finished-at="2019-12-08T12:18:55Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.expedia.TestClasses.FlightsSearchTest@368f2016]" name="tearDown" is-config="true" duration-ms="2134" started-at="2020-01-01T08:38:57Z" finished-at="2020-01-01T08:38:59Z">
           <params>
             <param index="0">
               <value>
@@ -71,11 +71,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.expedia.TestClasses.FlightsSearchTest@368f2016]" name="setUp" is-config="true" duration-ms="7569" started-at="2019-12-08T12:18:55Z" finished-at="2019-12-08T12:19:03Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.expedia.TestClasses.FlightsSearchTest@368f2016]" name="setUp" is-config="true" duration-ms="9936" started-at="2020-01-01T08:38:59Z" finished-at="2020-01-01T08:39:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="Basic_Test_002(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.expedia.TestClasses.FlightsSearchTest@368f2016]" name="Basic_Test_002" duration-ms="7014" started-at="2019-12-08T12:19:03Z" data-provider="Cities" finished-at="2019-12-08T12:19:10Z">
+        <test-method status="PASS" signature="Basic_Test_002(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.expedia.TestClasses.FlightsSearchTest@368f2016]" name="Basic_Test_002" duration-ms="7900" started-at="2020-01-01T08:39:09Z" data-provider="Cities" finished-at="2020-01-01T08:39:17Z">
           <params>
             <param index="0">
               <value>
@@ -101,7 +101,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Basic_Test_002 -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.expedia.TestClasses.FlightsSearchTest@368f2016]" name="tearDown" is-config="true" duration-ms="2106" started-at="2019-12-08T12:19:10Z" finished-at="2019-12-08T12:19:12Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.expedia.TestClasses.FlightsSearchTest@368f2016]" name="tearDown" is-config="true" duration-ms="2123" started-at="2020-01-01T08:39:17Z" finished-at="2020-01-01T08:39:19Z">
           <params>
             <param index="0">
               <value>
@@ -112,11 +112,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.expedia.TestClasses.FlightsSearchTest@368f2016]" name="setUp" is-config="true" duration-ms="7846" started-at="2019-12-08T12:19:12Z" finished-at="2019-12-08T12:19:20Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.expedia.TestClasses.FlightsSearchTest@368f2016]" name="setUp" is-config="true" duration-ms="10580" started-at="2020-01-01T08:39:19Z" finished-at="2020-01-01T08:39:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="Basic_Test_002(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.expedia.TestClasses.FlightsSearchTest@368f2016]" name="Basic_Test_002" duration-ms="7927" started-at="2019-12-08T12:19:20Z" data-provider="Cities" finished-at="2019-12-08T12:19:28Z">
+        <test-method status="PASS" signature="Basic_Test_002(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.expedia.TestClasses.FlightsSearchTest@368f2016]" name="Basic_Test_002" duration-ms="8522" started-at="2020-01-01T08:39:30Z" data-provider="Cities" finished-at="2020-01-01T08:39:38Z">
           <params>
             <param index="0">
               <value>
@@ -142,7 +142,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Basic_Test_002 -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.expedia.TestClasses.FlightsSearchTest@368f2016]" name="tearDown" is-config="true" duration-ms="2068" started-at="2019-12-08T12:19:28Z" finished-at="2019-12-08T12:19:30Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.expedia.TestClasses.FlightsSearchTest@368f2016]" name="tearDown" is-config="true" duration-ms="2094" started-at="2020-01-01T08:39:38Z" finished-at="2020-01-01T08:39:41Z">
           <params>
             <param index="0">
               <value>
@@ -153,11 +153,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.expedia.TestClasses.FlightsSearchTest@368f2016]" name="setUp" is-config="true" duration-ms="9027" started-at="2019-12-08T12:19:30Z" finished-at="2019-12-08T12:19:39Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.expedia.TestClasses.FlightsSearchTest@368f2016]" name="setUp" is-config="true" duration-ms="10338" started-at="2020-01-01T08:39:41Z" finished-at="2020-01-01T08:39:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="Basic_Test_002(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.expedia.TestClasses.FlightsSearchTest@368f2016]" name="Basic_Test_002" duration-ms="7133" started-at="2019-12-08T12:19:39Z" data-provider="Cities" finished-at="2019-12-08T12:19:46Z">
+        <test-method status="PASS" signature="Basic_Test_002(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.expedia.TestClasses.FlightsSearchTest@368f2016]" name="Basic_Test_002" duration-ms="8246" started-at="2020-01-01T08:39:51Z" data-provider="Cities" finished-at="2020-01-01T08:39:59Z">
           <params>
             <param index="0">
               <value>
@@ -183,7 +183,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Basic_Test_002 -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.expedia.TestClasses.FlightsSearchTest@368f2016]" name="tearDown" is-config="true" duration-ms="199" started-at="2019-12-08T12:19:46Z" finished-at="2019-12-08T12:19:46Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.expedia.TestClasses.FlightsSearchTest@368f2016]" name="tearDown" is-config="true" duration-ms="2098" started-at="2020-01-01T08:39:59Z" finished-at="2020-01-01T08:40:01Z">
           <params>
             <param index="0">
               <value>
