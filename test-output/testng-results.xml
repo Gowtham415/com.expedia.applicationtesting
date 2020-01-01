@@ -2,24 +2,48 @@
 <testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
+<<<<<<< HEAD
   <suite name="COM.EXPEDIA" duration-ms="78189" started-at="2019-12-08T13:35:36Z" finished-at="2019-12-08T13:36:54Z">
+=======
+  <suite name="COM.EXPEDIA" duration-ms="104731" started-at="2020-01-01T08:38:17Z" finished-at="2020-01-01T08:40:01Z">
+>>>>>>> refs/heads/RefBranch
     <groups>
     </groups>
+<<<<<<< HEAD
     <test name="FlightsTest" duration-ms="78189" started-at="2019-12-08T13:35:36Z" finished-at="2019-12-08T13:36:54Z">
+=======
+    <test name="FlightsTest" duration-ms="104731" started-at="2020-01-01T08:38:17Z" finished-at="2020-01-01T08:40:01Z">
+>>>>>>> refs/heads/RefBranch
       <class name="com.expedia.TestClasses.FlightsSearchTest">
+<<<<<<< HEAD
         <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.expedia.TestClasses.FlightsSearchTest@368f2016]" name="beforeTest" is-config="true" duration-ms="11" started-at="2019-12-08T13:35:36Z" finished-at="2019-12-08T13:35:36Z">
+=======
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.expedia.TestClasses.FlightsSearchTest@368f2016]" name="beforeTest" is-config="true" duration-ms="17" started-at="2020-01-01T08:38:17Z" finished-at="2020-01-01T08:38:17Z">
+>>>>>>> refs/heads/RefBranch
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
+<<<<<<< HEAD
         <test-method status="PASS" signature="setUp()[pri:0, instance:com.expedia.TestClasses.FlightsSearchTest@368f2016]" name="setUp" is-config="true" duration-ms="6583" started-at="2019-12-08T13:35:36Z" finished-at="2019-12-08T13:35:43Z">
+=======
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.expedia.TestClasses.FlightsSearchTest@368f2016]" name="setUp" is-config="true" duration-ms="12040" started-at="2020-01-01T08:38:17Z" finished-at="2020-01-01T08:38:29Z">
+>>>>>>> refs/heads/RefBranch
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
+<<<<<<< HEAD
         <test-method status="PASS" signature="Basic_Test_001()[pri:0, instance:com.expedia.TestClasses.FlightsSearchTest@368f2016]" name="Basic_Test_001" duration-ms="6607" started-at="2019-12-08T13:35:43Z" finished-at="2019-12-08T13:35:49Z">
+=======
+        <test-method status="PASS" signature="Basic_Test_001()[pri:0, instance:com.expedia.TestClasses.FlightsSearchTest@368f2016]" name="Basic_Test_001" duration-ms="7592" started-at="2020-01-01T08:38:29Z" finished-at="2020-01-01T08:38:36Z">
+>>>>>>> refs/heads/RefBranch
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Basic_Test_001 -->
+<<<<<<< HEAD
         <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.expedia.TestClasses.FlightsSearchTest@368f2016]" name="tearDown" is-config="true" duration-ms="493" started-at="2019-12-08T13:35:50Z" finished-at="2019-12-08T13:35:50Z">
+=======
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.expedia.TestClasses.FlightsSearchTest@368f2016]" name="tearDown" is-config="true" duration-ms="340" started-at="2020-01-01T08:38:37Z" finished-at="2020-01-01T08:38:37Z">
+>>>>>>> refs/heads/RefBranch
           <params>
             <param index="0">
               <value>
@@ -30,11 +54,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
+<<<<<<< HEAD
         <test-method status="PASS" signature="setUp()[pri:0, instance:com.expedia.TestClasses.FlightsSearchTest@368f2016]" name="setUp" is-config="true" duration-ms="5847" started-at="2019-12-08T13:35:51Z" finished-at="2019-12-08T13:35:57Z">
+=======
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.expedia.TestClasses.FlightsSearchTest@368f2016]" name="setUp" is-config="true" duration-ms="10215" started-at="2020-01-01T08:38:39Z" finished-at="2020-01-01T08:38:49Z">
+>>>>>>> refs/heads/RefBranch
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
+<<<<<<< HEAD
         <test-method status="PASS" signature="Basic_Test_002(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.expedia.TestClasses.FlightsSearchTest@368f2016]" name="Basic_Test_002" duration-ms="7082" started-at="2019-12-08T13:35:57Z" data-provider="Cities" finished-at="2019-12-08T13:36:04Z">
+=======
+        <test-method status="PASS" signature="Basic_Test_002(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.expedia.TestClasses.FlightsSearchTest@368f2016]" name="Basic_Test_002" duration-ms="8230" started-at="2020-01-01T08:38:49Z" data-provider="Cities" finished-at="2020-01-01T08:38:57Z">
+>>>>>>> refs/heads/RefBranch
           <params>
             <param index="0">
               <value>
@@ -60,7 +92,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Basic_Test_002 -->
+<<<<<<< HEAD
         <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.expedia.TestClasses.FlightsSearchTest@368f2016]" name="tearDown" is-config="true" duration-ms="2117" started-at="2019-12-08T13:36:04Z" finished-at="2019-12-08T13:36:06Z">
+=======
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.expedia.TestClasses.FlightsSearchTest@368f2016]" name="tearDown" is-config="true" duration-ms="2134" started-at="2020-01-01T08:38:57Z" finished-at="2020-01-01T08:38:59Z">
+>>>>>>> refs/heads/RefBranch
           <params>
             <param index="0">
               <value>
@@ -71,11 +107,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
+<<<<<<< HEAD
         <test-method status="PASS" signature="setUp()[pri:0, instance:com.expedia.TestClasses.FlightsSearchTest@368f2016]" name="setUp" is-config="true" duration-ms="9084" started-at="2019-12-08T13:36:06Z" finished-at="2019-12-08T13:36:15Z">
+=======
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.expedia.TestClasses.FlightsSearchTest@368f2016]" name="setUp" is-config="true" duration-ms="9936" started-at="2020-01-01T08:38:59Z" finished-at="2020-01-01T08:39:09Z">
+>>>>>>> refs/heads/RefBranch
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
+<<<<<<< HEAD
         <test-method status="PASS" signature="Basic_Test_002(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.expedia.TestClasses.FlightsSearchTest@368f2016]" name="Basic_Test_002" duration-ms="4499" started-at="2019-12-08T13:36:15Z" data-provider="Cities" finished-at="2019-12-08T13:36:20Z">
+=======
+        <test-method status="PASS" signature="Basic_Test_002(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.expedia.TestClasses.FlightsSearchTest@368f2016]" name="Basic_Test_002" duration-ms="7900" started-at="2020-01-01T08:39:09Z" data-provider="Cities" finished-at="2020-01-01T08:39:17Z">
+>>>>>>> refs/heads/RefBranch
           <params>
             <param index="0">
               <value>
@@ -101,7 +145,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Basic_Test_002 -->
+<<<<<<< HEAD
         <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.expedia.TestClasses.FlightsSearchTest@368f2016]" name="tearDown" is-config="true" duration-ms="2082" started-at="2019-12-08T13:36:20Z" finished-at="2019-12-08T13:36:22Z">
+=======
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.expedia.TestClasses.FlightsSearchTest@368f2016]" name="tearDown" is-config="true" duration-ms="2123" started-at="2020-01-01T08:39:17Z" finished-at="2020-01-01T08:39:19Z">
+>>>>>>> refs/heads/RefBranch
           <params>
             <param index="0">
               <value>
@@ -112,11 +160,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
+<<<<<<< HEAD
         <test-method status="PASS" signature="setUp()[pri:0, instance:com.expedia.TestClasses.FlightsSearchTest@368f2016]" name="setUp" is-config="true" duration-ms="8685" started-at="2019-12-08T13:36:22Z" finished-at="2019-12-08T13:36:31Z">
+=======
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.expedia.TestClasses.FlightsSearchTest@368f2016]" name="setUp" is-config="true" duration-ms="10580" started-at="2020-01-01T08:39:19Z" finished-at="2020-01-01T08:39:30Z">
+>>>>>>> refs/heads/RefBranch
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
+<<<<<<< HEAD
         <test-method status="PASS" signature="Basic_Test_002(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.expedia.TestClasses.FlightsSearchTest@368f2016]" name="Basic_Test_002" duration-ms="5056" started-at="2019-12-08T13:36:31Z" data-provider="Cities" finished-at="2019-12-08T13:36:36Z">
+=======
+        <test-method status="PASS" signature="Basic_Test_002(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.expedia.TestClasses.FlightsSearchTest@368f2016]" name="Basic_Test_002" duration-ms="8522" started-at="2020-01-01T08:39:30Z" data-provider="Cities" finished-at="2020-01-01T08:39:38Z">
+>>>>>>> refs/heads/RefBranch
           <params>
             <param index="0">
               <value>
@@ -142,7 +198,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Basic_Test_002 -->
+<<<<<<< HEAD
         <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.expedia.TestClasses.FlightsSearchTest@368f2016]" name="tearDown" is-config="true" duration-ms="2157" started-at="2019-12-08T13:36:36Z" finished-at="2019-12-08T13:36:38Z">
+=======
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.expedia.TestClasses.FlightsSearchTest@368f2016]" name="tearDown" is-config="true" duration-ms="2094" started-at="2020-01-01T08:39:38Z" finished-at="2020-01-01T08:39:41Z">
+>>>>>>> refs/heads/RefBranch
           <params>
             <param index="0">
               <value>
@@ -153,11 +213,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
+<<<<<<< HEAD
         <test-method status="PASS" signature="setUp()[pri:0, instance:com.expedia.TestClasses.FlightsSearchTest@368f2016]" name="setUp" is-config="true" duration-ms="5820" started-at="2019-12-08T13:36:38Z" finished-at="2019-12-08T13:36:44Z">
+=======
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.expedia.TestClasses.FlightsSearchTest@368f2016]" name="setUp" is-config="true" duration-ms="10338" started-at="2020-01-01T08:39:41Z" finished-at="2020-01-01T08:39:51Z">
+>>>>>>> refs/heads/RefBranch
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
+<<<<<<< HEAD
         <test-method status="PASS" signature="Basic_Test_002(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.expedia.TestClasses.FlightsSearchTest@368f2016]" name="Basic_Test_002" duration-ms="8081" started-at="2019-12-08T13:36:44Z" data-provider="Cities" finished-at="2019-12-08T13:36:52Z">
+=======
+        <test-method status="PASS" signature="Basic_Test_002(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.expedia.TestClasses.FlightsSearchTest@368f2016]" name="Basic_Test_002" duration-ms="8246" started-at="2020-01-01T08:39:51Z" data-provider="Cities" finished-at="2020-01-01T08:39:59Z">
+>>>>>>> refs/heads/RefBranch
           <params>
             <param index="0">
               <value>
@@ -183,7 +251,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Basic_Test_002 -->
+<<<<<<< HEAD
         <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.expedia.TestClasses.FlightsSearchTest@368f2016]" name="tearDown" is-config="true" duration-ms="2107" started-at="2019-12-08T13:36:52Z" finished-at="2019-12-08T13:36:54Z">
+=======
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.expedia.TestClasses.FlightsSearchTest@368f2016]" name="tearDown" is-config="true" duration-ms="2098" started-at="2020-01-01T08:39:59Z" finished-at="2020-01-01T08:40:01Z">
+>>>>>>> refs/heads/RefBranch
           <params>
             <param index="0">
               <value>
