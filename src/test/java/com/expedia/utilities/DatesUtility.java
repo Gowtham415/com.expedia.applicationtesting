@@ -17,7 +17,7 @@ public class DatesUtility {
 	private static Calendar getFutureDate() {
 		date = Calendar.getInstance();
 		date.setTime(new Date()); // Now use today date.
-		date.add(Calendar.DATE, 15); // Adds 15 days by deafault
+		date.add(Calendar.DATE, 15); // Adds 15 days by default
 		return date;
 	}
 	

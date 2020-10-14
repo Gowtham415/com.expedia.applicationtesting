@@ -22,6 +22,7 @@ import com.expedia.utilities.ReadConfig;
 
 public class BaseClass {
 
+	public  ThreadLocal<WebDriver> webdriver = new ThreadLocal<WebDriver>();
 	public static WebDriver driver;
 	public static String baseurl;
 	public static Logger logger = LogManager.getLogger(BaseClass.class.getName());
@@ -48,7 +49,8 @@ public class BaseClass {
 		options.setExperimentalOption("useAutomationExtension", false);
 		options.setExperimentalOption("excludeSwitches", Collections.singletonList("enable-automation"));
 	
-		driver = new ChromeDriver(options);
+		webdriver.set(new ChromeDriver(options));
+		driver = webdriver.get();
 		page = new Page(driver);
 		baseurl = readConfig.getBaseUrl();
 		logger.info("Getting the base URL from Config File");
