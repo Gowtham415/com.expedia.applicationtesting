@@ -1,7 +1,0 @@
-com\expedia\pageObjects\FlightsSearchPagePOM.class
-com\expedia\utilities\RandomData.class
-com\expedia\utilities\XLUtility.class
-com\expedia\TestClasses\BaseClass.class
-com\expedia\utilities\ReadConfig.class
-com\expedia\TestClasses\FlightsSearchTest.class
-com\expedia\utilities\ExplicitWaitsUtility.class

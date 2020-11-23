@@ -1,9 +1,0 @@
-02:14:58.048 INFO  TestClasses.BaseClass -Getting the base URL from Config File
-02:15:16.879 INFO  TestClasses.BaseClass -Opening the base URL
-02:15:19.591 INFO  TestClasses.BaseClass -Clicked on the flights tab
-02:15:19.853 INFO  TestClasses.BaseClass -clicked Round trip radio button
-02:15:20.925 INFO  TestClasses.BaseClass -Entered Origin City
-02:15:21.553 INFO  TestClasses.BaseClass -Entered Destination City
-02:15:22.082 INFO  TestClasses.BaseClass -Entered Departure date
-02:15:22.917 INFO  TestClasses.BaseClass -Entered return Date
-02:15:23.459 INFO  TestClasses.BaseClass -Clicked on Search Flights button
