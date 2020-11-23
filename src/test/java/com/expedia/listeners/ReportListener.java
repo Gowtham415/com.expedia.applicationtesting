@@ -14,7 +14,7 @@ import com.aventstack.extentreports.Status;
 import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 import com.aventstack.extentreports.reporter.configuration.ChartLocation;
 import com.aventstack.extentreports.reporter.configuration.Theme;
-import com.expedia.TestClasses.BaseClass;
+import com.expedia.testclasses.BaseClass;
 import com.expedia.utilities.ScreenShots;
 
 public class ReportListener implements ITestListener{

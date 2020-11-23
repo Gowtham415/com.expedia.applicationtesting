@@ -1,4 +1,4 @@
-package com.expedia.pageObjects;
+package com.expedia.pageobjects;
 
 import org.openqa.selenium.WebDriver;
 

@@ -1,4 +1,4 @@
-package com.expedia.TestClasses;
+package com.expedia.testclasses;
 
 import static com.expedia.utilities.ScreenShots.captureScreenshot;
 
@@ -15,10 +15,10 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
 
-import com.expedia.pageObjects.Page;
+import com.expedia.pageobjects.Page;
 import com.expedia.utilities.ReadConfig;
 
-
+import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class BaseClass {
 
@@ -42,7 +42,7 @@ public class BaseClass {
 
 	@BeforeMethod
 	public void setUp() {
-		System.setProperty("webdriver.chrome.driver", readConfig.getChromeDriverPath());
+		WebDriverManager.chromedriver().setup();
 
 		// To Remove Info tab "Chrome is controlled by Automated Software "
 		ChromeOptions options = new ChromeOptions();

@@ -1,11 +1,11 @@
-package com.expedia.pageObjects;
+package com.expedia.pageobjects;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class Page {
 	public WebDriver driver;
-	public static WebDriverWait wait;
+	public WebDriverWait wait;
 
 	public Page(WebDriver driver) {
 		this.driver = driver;

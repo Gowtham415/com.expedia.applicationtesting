@@ -1,4 +1,4 @@
-package com.expedia.pageObjects;
+package com.expedia.pageobjects;
 
 import java.util.Calendar;
 
@@ -43,14 +43,12 @@ public class FlightsSearchPagePOM extends BasePage {
 	}
 
 	public void setOriginCity(String city) {
-		driverWait.waitUntilElementisVisible(originCity).click();// To give additional time for driver to send keys
-																	// after element is found
+		driverWait.waitUntilElementisVisible(originCity).click();
 		driverWait.waitUntilElementisVisible(originCity).sendKeys(city);
 	}
 
 	public void setDestinationCity(String city) {
-		driverWait.waitUntilElementisVisible(destinationCity).click();// To give additional time for driver to send keys
-																		// after element is found
+		driverWait.waitUntilElementisVisible(destinationCity).click();
 		driverWait.waitUntilElementisVisible(destinationCity).sendKeys(city);
 	}
 
@@ -71,10 +69,7 @@ public class FlightsSearchPagePOM extends BasePage {
 
 	public void setDepartureDateOneWayFromCalendar(String departurdate) {
 		try {
-			driverWait.waitUntilElementisVisible(departureDateForOneWay).click();
-			// By calenderMonthElement =
-			// By.xpath("//div[@id=\"flight-departing-wrapper-single-hp-flight\"]//div//caption[1]");
-//		String dateinFuturedate = departurdate.split("/")[0];		
+			driverWait.waitUntilElementisVisible(departureDateForOneWay).click();		
 			String monthInFutureDate = departurdate.split("/")[1];
 			By departureDateXpath;
 			Calendar cal = Calendar.getInstance();
@@ -96,7 +91,7 @@ public class FlightsSearchPagePOM extends BasePage {
 		}
 	}
 
-	public void searchForFlights_Return(String originCity, String destinationCity, String departureTime,
+	public void searchForReturnFlights(String originCity, String destinationCity, String departureTime,
 			String returnDate) {
 		clickFlightsTab();
 		clickReturnRadioButton();
@@ -107,7 +102,7 @@ public class FlightsSearchPagePOM extends BasePage {
 		clickSearchFlights();
 	}
 
-	public void searchForFlights_oneWay(String originCity, String destinationCity, String departureTime,
+	public void searchForOneWayFlights(String originCity, String destinationCity, String departureTime,
 			String returnDate) {
 		clickFlightsTab();
 		clickOnewayRadioButton();

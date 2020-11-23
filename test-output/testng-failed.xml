@@ -1,22 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [COM.EXPEDIA]" parallel="methods">
-  <listeners>
-    <listener class-name="com.expedia.listeners.ReportListener"/>
-    <listener class-name="com.expedia.listeners.CustomReporter"/>
-  </listeners>
-  <test thread-count="5" name="FlightsTest(failed)" parallel="methods">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.expedia.TestClasses.FlightsSearchTest">
+      <class name="com.expedia.testclasses.TestPractice">
         <methods>
-          <include name="tearDown"/>
-          <include name="setUp"/>
-          <include name="Basic_Test_002" invocation-numbers="0"/>
-          <include name="Basic_Test_001"/>
-          <include name="beforeTest"/>
-          <include name="readFromCalendar"/>
+          <include name="test"/>
         </methods>
-      </class> <!-- com.expedia.TestClasses.FlightsSearchTest -->
+      </class> <!-- com.expedia.testclasses.TestPractice -->
     </classes>
-  </test> <!-- FlightsTest(failed) -->
-</suite> <!-- Failed suite [COM.EXPEDIA] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
